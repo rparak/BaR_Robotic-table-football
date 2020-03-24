@@ -28,4 +28,4 @@ Grade proposed by supervisor: A
 Grade proposed by reviewer: A
 
 **Game Axis Structure:**
-![text](https://github.com/rparak/Robotic-table-football/tree/master/images/axis_structure_fig.png)
+![](https://github.com/rparak/Robotic-table-football/blob/master/images/axis_structure_fig.png)
