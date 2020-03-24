@@ -27,12 +27,14 @@ Grade proposed by supervisor: A
 
 Grade proposed by reviewer: A
 
+**Repositary [Robotic-table-football/Automation_Studio/RTFProj-master]:**
+
 ```bash
-[ AS Library         ] Robotic-table-football/Automation_Studio/RTFProj-master/Logical/Libraries/rp_library/rp_funcx1
-[ AS Test Simulation ] Robotic-table-football/Automation_Studio/RTFProj-master/Logical/Simulation/
-[ AS Test Real-HW    ] Robotic-table-football/Automation_Studio/RTFProj-master/Logical/Real_Game/
-[ AS MappView        ] Robotic-table-football/Automation_Studio/RTFProj-master/Logical/mappView/
-[ AS Safety          ] Robotic-table-football/Automation_Studio/RTFProj-master/Physical/RTFProjRG/5PPC2100_BY44_000/SafeLOGIC-1.swt
+[ AS Library         ] /Logical/Libraries/rp_library/rp_funcx1
+[ AS Test Simulation ] /Logical/Simulation/
+[ AS Test Real-HW    ] /Logical/Real_Game/
+[ AS MappView        ] /Logical/mappView/
+[ AS Safety          ] /Physical/RTFProjRG/5PPC2100_BY44_000/SafeLOGIC-1.swt
 ```
 ## Game Axis Structure:
 
