@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Library Version="1.60.1" Description="Single and multi axes control" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>MpAxis.typ</File>
+    <File>MpAxisError.typ</File>
+    <File>MpAxisAlarm.typ</File>
+    <File>MpAxis.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="Acp10_MC" FromVersion="3.16.0" ToVersion="3.16.9" />
+    <Dependency ObjectName="NcGlobal" FromVersion="3.16.0" ToVersion="3.16.9" />
+    <Dependency ObjectName="MpCom" FromVersion="1.60.1" ToVersion="1.60.1" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,6 @@
+VAR
+	adress : STRING[20] := '172.25.15.68';
+	port : UINT := 11000;
+	path : STRING[200] := 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe';
+	arguments : STRING[200] := '--start-fullscreen http://172.25.15.67:81/index.html?visuId=RSTSIMPROJ';
+END_VAR

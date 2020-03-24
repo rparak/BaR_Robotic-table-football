@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ddef:Dialog id="DialogLogin" layoutRefId="MyDialogLayout"  xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2"
+    displayName= "$prhls"
+	styleRefId="myStyle"       
+    >
+  <Assignments>
+    <Assignment type="Content" baseContentRefId="ContentDialogLogin" areaRefId="AreaMain" />
+  </Assignments>
+</ddef:Dialog>

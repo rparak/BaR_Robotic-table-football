@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<osdd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ethernet-powerlink.org/osdd osdd.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" Version="1.6" xmlns="http://www.ethernet-powerlink.org/osdd">
+  <Topology SafetyDomain="1">
+    <GeneratorDescription Name="AutomationStudio" Version="4.2.8.54 SP" LanguageID="1">
+      <Info Name="ARVersion" Value="42602" />
+      <Info Name="SafetyRelease" Value="1.10" />
+      <Info Name="Communication" Value="/IF=tcpip /LOPO=11159 /SA=1 /RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /PORT=50000" />
+    </GeneratorDescription>
+    <SafetyConfigurationManager TransportSAddr="1">
+      <DeviceDescription Module="X20SLXxxx_110.SCM" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS42\AS\Hardware\Modules\OSDD\X20SLXxxx_SCM_R110.xosdd]]></DeviceDescription>
+      <NodeDescription />
+    </SafetyConfigurationManager>
+    <SafetyNode SAddr="1">
+      <DeviceDescription Module="X20SLX842_110.MainSN" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS42\AS\Hardware\Modules\OSDD\X20SLX842.xosdd]]></DeviceDescription>
+      <DesignConfiguration>
+        <ModuleSettings>
+          <SettingsGroup id="DataFromAs">
+            <Setting id="SafeDesigner" Value="4.2.2.18" />
+          </SettingsGroup>
+        </ModuleSettings>
+      </DesignConfiguration>
+      <NodeDescription>
+        <Classification Type="Digital" />
+        <Classification Type="Input" />
+        <Classification Type="Output" />
+        <Classification Type="PLC" />
+        <Classification Type="VendorSpecific">Safe</Classification>
+        <Classification Type="VendorSpecific">IO</Classification>
+        <Classification Type="VendorSpecific">Combined</Classification>
+        <Info Name="Interface" Value="SL1.IF1.ST1.IF1.ST5" />
+        <Info Name="HWC_Revision" Value="1.10.1.2" />
+        <Info Name="HWC_LastEdit" Value="22. 9. 2016 13:55:38" />
+        <Info Name="AS_Name" Value="X20SLX842" />
+        <Info Name="FirstPublishedSafetyRelease" Value="1.10" />
+        <Info Name="ProjectSL" Value="1" />
+        <Info Name="Description-de" Value="X20 SafeLOGIC Compact, 8xE 24V, 4xA 24V 3.0A, 2xA 24V 0.05A" />
+        <Info Name="Description-en" Value="X20 SafeLOGIC Compact, 8xI 24V, 4xO 24V 3.0A, 2xO 24V 0.05A" />
+      </NodeDescription>
+      <ChannelConfiguration>
+        <DataTransport>
+          <GenericTransport Name="DataExFromCpu" Direction="Input" OctetSize="20" IsSafe="false" />
+          <GenericTransport Name="DataExToCpu" Direction="Output" OctetSize="20" IsSafe="false" />
+        </DataTransport>
+        <ChannelGroup id="ToCPU_BOOL">
+          <Channel id="BOOL0">
+            <DataValue Type="Boolean">
+              <Transport Name="DataExToCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <Repetition RangeMax="8" NrOfDigits="2" />
+          </Channel>
+        </ChannelGroup>
+        <ChannelGroup id="FromCPU_OCTET">
+          <Channel id="MFWslxIN">
+            <DataValue Type="UInt8">
+              <Transport Name="DataExFromCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <VendorInfo>NrElements="14"</VendorInfo>
+            <VendorInfo>GeneratedBySafeFirmware="true"</VendorInfo>
+            <VendorInfo>IncludeInChannelCRC="1"</VendorInfo>
+            <VendorInfo>NotVisible="true"</VendorInfo>
+            <VendorInfo>Mappable="false"</VendorInfo>
+          </Channel>
+        </ChannelGroup>
+        <ChannelGroup id="FromCPU_BOOL">
+          <Channel id="BOOL1">
+            <DataValue Type="Boolean">
+              <Transport Name="DataExFromCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <Repetition RangeMax="8" NrOfDigits="2" />
+          </Channel>
+        </ChannelGroup>
+      </ChannelConfiguration>
+    </SafetyNode>
+  </Topology>
+</osdd>

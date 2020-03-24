@@ -1,0 +1,14 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: Client
+ * File: Client.var
+ * Author: Bernecker + Rainer
+ * Created: June 02, 2008
+ ********************************************************************
+ * Local variables of program Client
+ ********************************************************************)
+VAR
+	Client : Client_typ := (0); (*Data for Client Task*)
+	hodnota : REAL;
+END_VAR

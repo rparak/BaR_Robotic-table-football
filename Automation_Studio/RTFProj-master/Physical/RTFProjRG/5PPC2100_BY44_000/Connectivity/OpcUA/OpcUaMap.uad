@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="3">
+  <DefaultView>
+    <Module>
+      <GlobalVariables Name="Global PV">
+        <Variable Name="cam_det" Enable="True">
+          <Variable Name="MappView" Enable="True">
+            <Variable Name="ZoneString" Enable="True" />
+          </Variable>
+          <Variable Name="Results" Enable="True">
+            <Variable Name="AxisX" Enable="True" />
+            <Variable Name="AxisY" Enable="True" />
+            <Variable Name="AxisXOld" Enable="True" />
+            <Variable Name="AxisYOld" Enable="True" />
+            <Variable Name="TimeDiff_ms" Enable="True" />
+          </Variable>
+        </Variable>
+        <Variable Name="GoalKeeper_0" Enable="True" />
+        <Variable Name="Light_0" Enable="True">
+          <Variable Name="DutyCycle" Enable="True" />
+        </Variable>
+      </GlobalVariables>
+      <Task Name="table_foot">
+        <Variable Name="START_GAME" Enable="True" />
+        <Variable Name="START_HOME_AUT" Enable="True" />
+        <Variable Name="START_INIT" Enable="True" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

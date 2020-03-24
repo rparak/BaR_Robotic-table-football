@@ -1,0 +1,12 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * File: Global.var
+ * Author: Bernecker + Rainer
+ * Created: June 02, 2008
+ ********************************************************************
+ * Global variables of project LibAsUDP
+ ********************************************************************)
+VAR
+	LibAsUDP1_ST : LibAsUDP1_ST_typ := (0); (*Data for AsUDP Global Variables*)
+END_VAR

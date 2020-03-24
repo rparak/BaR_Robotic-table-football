@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ddef:Dialog id="DialogEnd" layoutRefId="MyDialogLayout"  xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2"
+    image="Media/Images/BtnImages/soccer_ball.png"
+	displayName= "$plsrr"
+	styleRefId="myStyle"       
+    >
+  <Assignments>
+    <Assignment type="Content" baseContentRefId="ContentDiagEnd" areaRefId="AreaMain" />
+  </Assignments>
+</ddef:Dialog>

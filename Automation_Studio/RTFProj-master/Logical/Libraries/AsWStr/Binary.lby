@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The AsWStr library allows 8-bit character strings to be implemented for 16-bit WC (AsWStr) strings.">
+  <Files>
+    <File>AsWStr.fun</File>
+    <File>AsWStr.typ</File>
+    <File>AsWStr.var</File>
+  </Files>
+</Library>

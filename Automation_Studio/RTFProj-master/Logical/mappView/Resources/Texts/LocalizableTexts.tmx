@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="logO">
+      <tuv xml:lang="sk">
+        <seg>Odhlásenie</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logout</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Odhlášení</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navCam">
+      <tuv xml:lang="sk">
+        <seg>Kamera</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Camera</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Kamera</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navHome">
+      <tuv xml:lang="sk">
+        <seg>Domov</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Domů</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navGame">
+      <tuv xml:lang="sk">
+        <seg>Hra</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Game</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Hra</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navSDM">
+      <tuv xml:lang="sk">
+        <seg>SDM</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SDM</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>SDM</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navMatch">
+      <tuv xml:lang="sk">
+        <seg>Zápas</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Match</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Zápas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navAlarm">
+      <tuv xml:lang="sk">
+        <seg>Alarm</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navSft">
+      <tuv xml:lang="sk">
+        <seg>Bezpečnosť</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Safety</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Bezpečnost</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navTemp">
+      <tuv xml:lang="sk">
+        <seg>Teplota</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Temperature</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Teplota</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navAbout">
+      <tuv xml:lang="sk">
+        <seg>Ohľadom</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>About</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Ohledně</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navPos">
+      <tuv xml:lang="sk">
+        <seg>Pozícia</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Position</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Pozice</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navGrap">
+      <tuv xml:lang="sk">
+        <seg>Graf</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Graph</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Graf</seg>
+      </tuv>
+    </tu>
+    <tu tuid="btnMb">
+      <tuv xml:lang="sk">
+        <seg>Diplomové/Bakalárské práce</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Master's/Bachelor's thesis</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Diplomové/Bakalářské\n práce</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navDs">
+      <tuv xml:lang="sk">
+        <seg>Dátový hárok</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Data Sheet</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Dátový hárek</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navWd">
+      <tuv xml:lang="sk">
+        <seg>Elektrická schéma</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wiring diagram</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Elektrická schéma</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SMDgp">
+      <tuv xml:lang="sk">
+        <seg>Správca diagnostiky systému</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>System Diagnostics Manager</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Správca diagnostiky systému</seg>
+      </tuv>
+    </tu>
+    <tu tuid="navMd">
+      <tuv xml:lang="sk">
+        <seg>Diplomové/Bakalárské práce</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Master's/Bachelor's thesis</seg>
+      </tuv>
+      <tuv xml:lang="cz">
+        <seg>Diplomové/Bakalářské práce</seg>
+      </tuv>
+    </tu>
+    <tu tuid="matHis">
+      <tuv xml:lang="sk">
+        <seg>História zápasov</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>History of matches</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sInf">
+      <tuv xml:lang="sk">
+        <seg>Zobrazit informácie o zápase:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Show information about match:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sTar">
+      <tuv xml:lang="sk">
+        <seg>Štart</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sInt">
+      <tuv xml:lang="sk">
+        <seg>Inicializácia</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Initialization</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sGss">
+      <tuv xml:lang="sk">
+        <seg>Všeobecné nastavenia</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>General settings</seg>
+      </tuv>
+    </tu>
+    <tu tuid="pn1h">
+      <tuv xml:lang="sk">
+        <seg>Meno hráča č.1:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name of player no.1:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="pn2h">
+      <tuv xml:lang="sk">
+        <seg>Meno hráča č.2:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name of player no.2:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="brRb">
+      <tuv xml:lang="sk">
+        <seg>Meno robota B&amp;R:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name of the B&amp;R robot:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="updt">
+      <tuv xml:lang="sk">
+        <seg>Aktuálne</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Up to date</seg>
+      </tuv>
+    </tu>
+    <tu tuid="stfawf">
+      <tuv xml:lang="sk">
+        <seg>Štatistiky dňa</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Statistics of the day</seg>
+      </tuv>
+    </tu>
+    <tu tuid="win">
+      <tuv xml:lang="sk">
+        <seg>VÝHRA</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>WINNER</seg>
+      </tuv>
+    </tu>
+    <tu tuid="draw">
+      <tuv xml:lang="sk">
+        <seg>REMÍZA</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>DRAW</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lose">
+      <tuv xml:lang="sk">
+        <seg>PREHRA</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>LOSE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="prob1">
+      <tuv xml:lang="sk">
+        <seg>Pravdepodobnosť výhry:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The probability of winning:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rm">
+      <tuv xml:lang="sk">
+        <seg>Rotačný motor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Rotary motor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lm">
+      <tuv xml:lang="sk">
+        <seg>Lineárny motor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Linear motor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="gk">
+      <tuv xml:lang="sk">
+        <seg>Brankár</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Goalkeeper</seg>
+      </tuv>
+    </tu>
+    <tu tuid="df">
+      <tuv xml:lang="sk">
+        <seg>Obranca</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Defender</seg>
+      </tuv>
+    </tu>
+    <tu tuid="md">
+      <tuv xml:lang="sk">
+        <seg>Stredopoliar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Midfielder</seg>
+      </tuv>
+    </tu>
+    <tu tuid="fw">
+      <tuv xml:lang="sk">
+        <seg>Útočník</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Forward</seg>
+      </tuv>
+    </tu>
+    <tu tuid="linr">
+      <tuv xml:lang="sk">
+        <seg>Lineárny:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Linear:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rotr">
+      <tuv xml:lang="sk">
+        <seg>Rotačný:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Rotary:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="hpgk">
+      <tuv xml:lang="sk">
+        <seg>Ľudský hráč - Brána</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Human Player - Goalkeeper</seg>
+      </tuv>
+    </tu>
+    <tu tuid="hpdf">
+      <tuv xml:lang="sk">
+        <seg>Ľudský hráč - Obrana</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Human Player - Defender</seg>
+      </tuv>
+    </tu>
+    <tu tuid="hpmd">
+      <tuv xml:lang="sk">
+        <seg>Ľudský hráč - Stred</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Human Player - Midfielder</seg>
+      </tuv>
+    </tu>
+    <tu tuid="hpfw">
+      <tuv xml:lang="sk">
+        <seg>Ľudský hráč - Útok</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Human Player - Forward</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rpgk">
+      <tuv xml:lang="sk">
+        <seg>B&amp;R Robot - Brána</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>B&amp;R Robot - Goalkeeper</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rpdf">
+      <tuv xml:lang="sk">
+        <seg>B&amp;R Robot - Obrana</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>B&amp;R Robot - Defender</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rpmd">
+      <tuv xml:lang="sk">
+        <seg>B&amp;R Robot - Stred</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>B&amp;R Robot - Midfielder</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rpfw">
+      <tuv xml:lang="sk">
+        <seg>B&amp;R Robot - Útok</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>B&amp;R Robot - Forward</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rmPos">
+      <tuv xml:lang="sk">
+        <seg>Rotačný motor - Pozícia</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Rotary motor - Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lmPos">
+      <tuv xml:lang="sk">
+        <seg>Linárny motor - Pozícia</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Linear motor - Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="plsrr">
+      <tuv xml:lang="sk">
+        <seg>Prosím zvolte ďalšie pokračovanie hry!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Please select the next sequel to the game!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="strGam">
+      <tuv xml:lang="sk">
+        <seg>Štart Hry</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start Game</seg>
+      </tuv>
+    </tu>
+    <tu tuid="prhls">
+      <tuv xml:lang="sk">
+        <seg>Prihlásenie</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="strggg">
+      <tuv xml:lang="sk">
+        <seg>Ak ste si istí, že chcete spustiť hru, stlačte tlačidlo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If you're sure you want to start the game, press the Yes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yes">
+      <tuv xml:lang="sk">
+        <seg>ÁNO</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>YES</seg>
+      </tuv>
+    </tu>
+    <tu tuid="restG">
+      <tuv xml:lang="sk">
+        <seg>REŠTART HRY</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>RESTART GAME</seg>
+      </tuv>
+    </tu>
+    <tu tuid="finG">
+      <tuv xml:lang="sk">
+        <seg>UKONČIŤ HRU</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>FINISH GAME</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rp">
+      <tuv xml:lang="sk">
+        <seg>Roman Parák - Diplomová Práca</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Roman Parák - Master's thesis</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lb">
+      <tuv xml:lang="sk">
+        <seg>Ľubomír Bubeník - Bakalárska Práca</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ľubomír Bubenik - Bachelor's thesis</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ro">
+      <tuv xml:lang="sk">
+        <seg>Radek Otradovský - Bakalárska Práca</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Radek Otradovský - Bachelor's thesis</seg>
+      </tuv>
+    </tu>
+    <tu tuid="strggg2">
+      <tuv xml:lang="sk">
+        <seg>Áno, inak slačte X.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>button, otherwise press X.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="gInfo">
+      <tuv xml:lang="sk">
+        <seg>Všeobecné informácie</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>General information</seg>
+      </tuv>
+    </tu>
+    <tu tuid="gsm">
+      <tuv xml:lang="sk">
+        <seg>Smer:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Direction:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="posK">
+      <tuv xml:lang="sk">
+        <seg>Pozícia - [ k ]</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Position - [ k ]</seg>
+      </tuv>
+    </tu>
+    <tu tuid="posK1">
+      <tuv xml:lang="sk">
+        <seg>Pozícia - [ k - 1 ]</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Position - [ k - 1 ]</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ZoneString">
+      <tuv xml:lang="sk">
+        <seg>Zóna vyhľadávania</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Finding Zone</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LightIntezity">
+      <tuv xml:lang="sk">
+        <seg>Intezita osvetlenia</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Light Intenzity</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

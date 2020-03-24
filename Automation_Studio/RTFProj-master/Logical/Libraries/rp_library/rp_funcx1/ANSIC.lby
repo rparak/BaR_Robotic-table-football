@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Library xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported functions and function blocks">rp_funcx1.fun</File>
+    <File>rp_functions.c</File>
+    <File>Types.typ</File>
+    <File>forecast_direction.c</File>
+    <File>calculation_posDummies.c</File>
+    <File>calculation_crossingBall.c</File>
+    <File>calculation_displacementOfAxes.c</File>
+    <File>measurement_ofScore.c</File>
+    <File>start_linearAxis.c</File>
+    <File>start_virtualAxis.c</File>
+    <File>start_rotaryAxis.c</File>
+    <File>err_detection.c</File>
+    <File>control_temperature.c</File>
+    <File>ball_shooting.c</File>
+    <File>turn_position.c</File>
+    <File>check_attack_mode.c</File>
+    <File>axes_control.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="MpAlarmX" />
+  </Dependencies>
+</Library>

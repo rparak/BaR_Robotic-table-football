@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentGamePage" height="668" width="1166" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="10" left="10" width="1145" height="645" zIndex="0" text="$IAT/navGame" borderWidth="0px" cornerRadius="8px 8px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox2" top="16" left="10" width="410" height="206" zIndex="0" text="$IAT/sGss" borderWidth="0px" cornerRadius="8px 8px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.TextInput" id="TextInput1" top="26" left="199" width="180" height="30" zIndex="0" value="PLAYER 1" borderWidth="1px 1px 1px 1px" cornerRadius="5px" borderColor="rgba(241, 241, 241, 1)" textColor="rgba(84, 84, 84, 1)" activeBorderColor="rgba(241, 241, 241, 1)" textAlign="right" fontName="TSTAR PRO" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="TextInput2" top="69" left="200" width="180" height="30" zIndex="1" value="PLAYER 2" borderWidth="1px 1px 1px 1px" cornerRadius="5px" borderColor="rgba(241, 241, 241, 1)" textColor="rgba(84, 84, 84, 1)" disabledTextColor="rgba(128, 128, 128, 1)" activeTextColor="rgba(128, 128, 128, 1)" textAlign="right" fontName="TSTAR PRO" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.Label" id="Label1" top="28" left="0" width="180" height="30" zIndex="2" text="$IAT/pn1h" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="16px" bold="true" />
+            <Widget xsi:type="widgets.brease.Label" id="Label2" top="69" left="0" width="180" height="30" zIndex="3" text="$IAT/pn2h" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" bold="true" />
+            <Widget xsi:type="widgets.brease.Label" id="Label3" top="129" left="0" width="200" height="30" zIndex="4" text="$IAT/brRb" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" bold="true" />
+            <Widget xsi:type="widgets.brease.TextInput" id="TextInput3" top="128" left="200" width="180" height="30" zIndex="5" value="B&amp;R ROBOT" borderWidth="1px 1px 1px 1px" cornerRadius="5px" borderColor="rgba(255, 255, 255, 1)" disabledBorderColor="rgba(241, 241, 241, 1)" textColor="rgba(84, 84, 84, 1)" disabledTextColor="rgba(128, 128, 128, 1)" activeBorderColor="rgba(255, 255, 255, 1)" textAlign="right" opacity="1" fontName="TSTAR PRO" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" enable="false" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox3" top="240" left="10" width="410" height="360" zIndex="1" text="$IAT/sInt" borderWidth="0px" cornerRadius="8px 8px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.PushButton" id="PushButton3" top="270" left="200" width="178" height="40" zIndex="0" image="Media/Images/BtnImages/gear_run.png" mouseDownImage="Media/Images/BtnImages/gear_run.png" mouseDownText="$IAT/sTar" text="$IAT/sTar" borderStyle="none" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(255, 255, 255, 1)" backGroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" disabledBackGroundGradient="none" mouseDownBackGroundGradient="linear-gradient(to bottom, rgba(74,74,74,1) 0%,rgba(124,124,124,1) 20%)" borderColor="rgba(255, 255, 255, 1)" textColor="rgba(84, 84, 84, 1)" mouseDownTextColor="rgba(255, 128, 0, 1)" fontSize="30px" fontName="TSTAR PRO" bold="true" shadow="1px 1px 6px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.Image" id="Image3" top="5" left="10" width="420" height="278" zIndex="1" image="Media/Images/Other/tab.png" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.Label" id="Label4" top="65" left="35" width="100" height="41" zIndex="2" text="GK" textColor="rgba(255, 255, 255, 1)" fontSize="40px" />
+            <Widget xsi:type="widgets.brease.Label" id="Label5" top="115" left="35" width="100" height="41" zIndex="3" text="DF" textColor="rgba(255, 255, 255, 1)" fontSize="40px" />
+            <Widget xsi:type="widgets.brease.Label" id="Label6" top="165" left="35" width="100" height="41" zIndex="4" text="MD" textColor="rgba(255, 255, 255, 1)" fontSize="40px" />
+            <Widget xsi:type="widgets.brease.Label" id="Label7" top="215" left="35" width="100" height="41" zIndex="5" text="FW" textColor="rgba(255, 255, 255, 1)" fontSize="40px" />
+            <Widget xsi:type="widgets.brease.Label" id="Label9" top="18" left="100" width="67" height="40" zIndex="6" multiLine="true" text="Power\nLinear" textColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.Label" id="Label10" top="18" left="170" width="67" height="40" zIndex="7" multiLine="true" text="Home\nLinear" textColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.Label" id="Label11" top="18" left="240" width="67" height="40" zIndex="8" multiLine="true" text="Power\nRotary" textColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.Label" id="Label12" top="18" left="310" width="67" height="40" zIndex="9" multiLine="true" text="Home\nRotary" textColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList1" top="68" left="115" width="40" height="38" zIndex="10" imageList="['pbD.png', 'pb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList2" top="118" left="115" width="40" height="38" zIndex="11" imageList="['pbD.png', 'pb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList3" top="168" left="115" width="40" height="38" zIndex="12" imageList="['pbD.png', 'pb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList4" top="218" left="115" width="40" height="38" zIndex="13" imageList="['pbD.png', 'pb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList5" top="68" left="185" width="40" height="38" zIndex="14" imageList="['hbD.png', 'hb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList6" top="118" left="185" width="40" height="38" zIndex="15" imageList="['hbD.png', 'hb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList7" top="168" left="185" width="40" height="38" zIndex="16" imageList="['hbD.png', 'hb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList8" top="218" left="185" width="40" height="38" zIndex="17" imageList="['hbD.png', 'hb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList9" top="68" left="255" width="40" height="38" zIndex="18" imageList="['pbD.png', 'pb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList10" top="118" left="255" width="40" height="38" zIndex="19" imageList="['pbD.png', 'pb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList11" top="168" left="255" width="40" height="38" zIndex="20" imageList="['pbD.png', 'pb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList12" top="218" left="255" width="40" height="38" zIndex="21" imageList="['pbD.png', 'pb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList13" top="68" left="325" width="40" height="38" zIndex="22" imageList="['hbD.png', 'hb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList14" top="118" left="325" width="40" height="38" zIndex="23" imageList="['hbD.png', 'hb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList15" top="168" left="325" width="40" height="38" zIndex="24" imageList="['hbD.png', 'hb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.ImageList" id="ImageList16" top="218" left="325" width="40" height="38" zIndex="25" imageList="['hbD.png', 'hb.png']" imagePrefix="Media/Images/Other/" borderWidth="0px" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox4" top="240" left="430" width="700" height="360" zIndex="2" text="$IAT/stfawf" borderWidth="0px" cornerRadius="8px 8px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Label" id="Label8" top="242" left="440" width="330" height="25" zIndex="0" text="$IAT/sInf" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" bold="true" />
+            <Widget xsi:type="widgets.brease.Image" id="Image1" top="22" left="460" width="200" height="178" zIndex="1" image="Media/Images/Other/pie.png" borderWidth="0px" />
+            <Widget xsi:type="widgets.brease.BarChart" id="BarChart1" top="22" left="20" width="400" height="276" zIndex="2" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem1" zIndex="0" text="$IAT/win" backColor="rgba(0, 255, 0, 1)" textColor="rgba(128, 128, 128, 1)" fontName="TSTAR PRO" opacity="0.7" />
+                <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem2" zIndex="1" text="$IAT/draw" borderWidth="2px" backColor="rgba(255, 128, 0, 1)" textColor="rgba(128, 128, 128, 1)" fontName="TSTAR PRO" opacity="0.7" />
+                <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem3" zIndex="2" text="$IAT/lose" backColor="rgba(255, 0, 0, 1)" textColor="rgba(128, 128, 128, 1)" fontName="TSTAR PRO" opacity="0.7" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="270" left="500" width="180" height="38" zIndex="3" mouseDownText="$IAT/updt" pageId="MatHist" text="$IAT/updt" borderStyle="none" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(255, 255, 255, 1)" backGroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" mouseDownBackGroundGradient="linear-gradient(to bottom, rgba(74,74,74,1) 0%,rgba(124,124,124,1) 20%)" borderColor="rgba(255, 255, 255, 1)" textColor="rgba(84, 84, 84, 1)" mouseDownBorderWidth="0px" mouseDownTextColor="rgba(255, 128, 0, 1)" fontSize="16px" fontName="TSTAR PRO" bold="true" shadow="1px 1px 6px 0px rgba(190, 190, 190, 0.75)" checkedBackGroundGradient="linear-gradient(to bottom, rgba(74,74,74,1) 0%,rgba(124,124,124,1) 20%)" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.Image" id="Image2" top="1" left="535" width="360" height="236" zIndex="3" image="Media/Images/Other/pm.png" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Image" id="Image5" top="156" left="1050" width="82" height="77" zIndex="4" image="Media/Images/BtnImages/strt.png" />
+        <Widget xsi:type="widgets.brease.Image" id="Image4" top="17" left="929" width="132" height="123" zIndex="5" image="Media/Images/Other/brAll.png" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

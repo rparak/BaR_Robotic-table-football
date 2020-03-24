@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="en" Type="Language">
+    <Property ID="LanguageName" Value="English" />
+    <Property ID="IsDesignLanguage" Value="TRUE" />
+  </Element>
+  <Element ID="cze" Type="Language">
+    <Property ID="LanguageName" Value="Czech" />
+  </Element>
+  <Element ID="sk" Type="Language">
+    <Property ID="LanguageName" Value="Slovak" />
+  </Element>
+</Configuration>

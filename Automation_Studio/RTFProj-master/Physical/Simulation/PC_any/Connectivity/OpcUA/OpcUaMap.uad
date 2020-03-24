@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="3">
+  <DefaultView>
+    <ACL>
+      <ACE Role="Administrators" />
+      <ACE Role="Everyone" />
+    </ACL>
+    <Module>
+      <GlobalVariables Name="Global PV">
+        <Variable Name="mp_Axis" Enable="True">
+          <Variable Name="mp_axisRotary" Enable="True" EnableArrayElements="True">
+            <Variable Name="mp_axisRotary[0]" AuditEvents="True">
+              <Variable Name="MpLink" AuditEvents="True">
+                <Variable Name="Internal" AuditEvents="True" />
+              </Variable>
+              <Variable Name="Enable" AuditEvents="True" />
+              <Variable Name="ErrorReset" AuditEvents="True" />
+              <Variable Name="Parameters" AuditEvents="True">
+                <Variable Name="Acceleration" AuditEvents="True" />
+                <Variable Name="Deceleration" AuditEvents="True" />
+                <Variable Name="Velocity" AuditEvents="True" />
+                <Variable Name="Position" AuditEvents="True" />
+                <Variable Name="Distance" AuditEvents="True" />
+                <Variable Name="Direction" AuditEvents="True" />
+                <Variable Name="Home" AuditEvents="True">
+                  <Variable Name="Mode" AuditEvents="True" />
+                  <Variable Name="Position" AuditEvents="True" />
+                  <Variable Name="StartVelocity" AuditEvents="True" />
+                  <Variable Name="HomingVelocity" AuditEvents="True" />
+                  <Variable Name="SensorOffset" AuditEvents="True" />
+                  <Variable Name="Acceleration" AuditEvents="True" />
+                  <Variable Name="StartDirection" AuditEvents="True" />
+                  <Variable Name="HomingDirection" AuditEvents="True" />
+                  <Variable Name="NoDirectionChange" AuditEvents="True" />
+                  <Variable Name="SwitchEdge" AuditEvents="True" />
+                  <Variable Name="ReferencePulse" AuditEvents="True" />
+                  <Variable Name="ReferencePulseBlockingDistance" AuditEvents="True" />
+                  <Variable Name="TorqueLimit" AuditEvents="True" />
+                  <Variable Name="BlockDetectionPositionError" AuditEvents="True" />
+                  <Variable Name="PositionErrorStopLimit" AuditEvents="True" />
+                  <Variable Name="EndlessPositionDataRef" AuditEvents="True" />
+                </Variable>
+                <Variable Name="Jog" AuditEvents="True">
+                  <Variable Name="Acceleration" AuditEvents="True" />
+                  <Variable Name="Deceleration" AuditEvents="True" />
+                  <Variable Name="Velocity" AuditEvents="True" />
+                  <Variable Name="LowerLimit" AuditEvents="True" />
+                  <Variable Name="UpperLimit" AuditEvents="True" />
+                </Variable>
+                <Variable Name="Stop" AuditEvents="True">
+                  <Variable Name="Deceleration" AuditEvents="True" />
+                  <Variable Name="StopInPhase" AuditEvents="True" />
+                  <Variable Name="Phase" AuditEvents="True" />
+                </Variable>
+                <Variable Name="StopAfterTrigger" AuditEvents="True">
+                  <Variable Name="Enable" AuditEvents="True" />
+                  <Variable Name="TriggerDistance" AuditEvents="True" />
+                  <Variable Name="ForceTriggerDistance" AuditEvents="True" />
+                  <Variable Name="Source" AuditEvents="True" />
+                  <Variable Name="Edge" AuditEvents="True" />
+                </Variable>
+                <Variable Name="Torque" AuditEvents="True">
+                  <Variable Name="Limit" AuditEvents="True" />
+                  <Variable Name="Window" AuditEvents="True" />
+                </Variable>
+                <Variable Name="CyclicRead" AuditEvents="True">
+                  <Variable Name="TorqueMode" AuditEvents="True" />
+                  <Variable Name="LagErrorMode" AuditEvents="True" />
+                  <Variable Name="MotorTempMode" AuditEvents="True" />
+                  <Variable Name="UserChannelMode" AuditEvents="True" />
+                </Variable>
+                <Variable Name="Autotune" AuditEvents="True">
+                  <Variable Name="Mode" AuditEvents="True" />
+                  <Variable Name="FeedForward" AuditEvents="True" />
+                  <Variable Name="Vertical" AuditEvents="True" />
+                  <Variable Name="MaxCurrentPercent" AuditEvents="True" />
+                  <Variable Name="MaxSpeedPercent" AuditEvents="True" />
+                  <Variable Name="MaxDistance" AuditEvents="True" />
+                  <Variable Name="ProportionalAmplification" AuditEvents="True" />
+                </Variable>
+              </Variable>
+              <Variable Name="Update" AuditEvents="True" />
+              <Variable Name="Axis" AuditEvents="True" />
+              <Variable Name="Power" AuditEvents="True" />
+              <Variable Name="Home" AuditEvents="True" />
+              <Variable Name="MoveVelocity" AuditEvents="True" />
+              <Variable Name="MoveAbsolute" AuditEvents="True" />
+              <Variable Name="MoveAdditive" AuditEvents="True" />
+              <Variable Name="Stop" AuditEvents="True" />
+              <Variable Name="JogPositive" AuditEvents="True" />
+              <Variable Name="JogNegative" AuditEvents="True" />
+              <Variable Name="Autotune" AuditEvents="True" />
+              <Variable Name="Simulate" AuditEvents="True" />
+              <Variable Name="TorqueLimit" AuditEvents="True" />
+              <Variable Name="ReleaseBrake" AuditEvents="True" />
+              <Variable Name="Active" AuditEvents="True" />
+              <Variable Name="Error" AuditEvents="True" />
+              <Variable Name="StatusID" AuditEvents="True" />
+              <Variable Name="UpdateDone" AuditEvents="True" />
+              <Variable Name="Position" AuditEvents="True" />
+              <Variable Name="Velocity" AuditEvents="True" />
+              <Variable Name="CommandBusy" AuditEvents="True" />
+              <Variable Name="CommandAborted" AuditEvents="True" />
+              <Variable Name="PowerOn" AuditEvents="True" />
+              <Variable Name="IsHomed" AuditEvents="True" />
+              <Variable Name="InVelocity" AuditEvents="True" />
+              <Variable Name="InPosition" AuditEvents="True" />
+              <Variable Name="MoveActive" AuditEvents="True" />
+              <Variable Name="Stopped" AuditEvents="True" />
+              <Variable Name="TuningDone" AuditEvents="True" />
+              <Variable Name="Simulation" AuditEvents="True" />
+              <Variable Name="TorqueLimited" AuditEvents="True" />
+              <Variable Name="BrakeReleased" AuditEvents="True" />
+              <Variable Name="Info" AuditEvents="True">
+                <Variable Name="AxisInitialized" AuditEvents="True" />
+                <Variable Name="ReadyToPowerOn" AuditEvents="True" />
+                <Variable Name="JogLimited" AuditEvents="True" />
+                <Variable Name="TorqueLimitActive" AuditEvents="True" />
+                <Variable Name="DriveRestarted" AuditEvents="True" />
+                <Variable Name="CyclicRead" AuditEvents="True">
+                  <Variable Name="Torque" AuditEvents="True">
+                    <Variable Name="Valid" AuditEvents="True" />
+                    <Variable Name="Value" AuditEvents="True" />
+                  </Variable>
+                  <Variable Name="LagError" AuditEvents="True">
+                    <Variable Name="Valid" AuditEvents="True" />
+                    <Variable Name="Value" AuditEvents="True" />
+                  </Variable>
+                  <Variable Name="MotorTemperature" AuditEvents="True">
+                    <Variable Name="Valid" AuditEvents="True" />
+                    <Variable Name="Value" AuditEvents="True" />
+                  </Variable>
+                  <Variable Name="UserChannelParameterID" AuditEvents="True">
+                    <Variable Name="Valid" AuditEvents="True" />
+                    <Variable Name="Value" AuditEvents="True" />
+                  </Variable>
+                </Variable>
+                <Variable Name="BootState" AuditEvents="True" />
+                <Variable Name="PLCopenState" AuditEvents="True" />
+                <Variable Name="DigitalInputsStatus" AuditEvents="True">
+                  <Variable Name="DriveEnable" AuditEvents="True" />
+                  <Variable Name="HomeSwitch" AuditEvents="True" />
+                  <Variable Name="PositiveLimitSwitch" AuditEvents="True" />
+                  <Variable Name="NegativeLimitSwitch" AuditEvents="True" />
+                  <Variable Name="Trigger1" AuditEvents="True" />
+                  <Variable Name="Trigger2" AuditEvents="True" />
+                </Variable>
+                <Variable Name="HardwareInfo" AuditEvents="True">
+                  <Variable Name="NodeID" AuditEvents="True" />
+                  <Variable Name="Channel" AuditEvents="True" />
+                  <Variable Name="NetworkType" AuditEvents="True" />
+                  <Variable Name="DeviceType" AuditEvents="True" />
+                </Variable>
+                <Variable Name="Diag" AuditEvents="True">
+                  <Variable Name="StatusID" AuditEvents="True">
+                    <Variable Name="ID" AuditEvents="True" />
+                    <Variable Name="Severity" AuditEvents="True" />
+                    <Variable Name="Code" AuditEvents="True" />
+                  </Variable>
+                  <Variable Name="Internal" AuditEvents="True">
+                    <Variable Name="ID" AuditEvents="True" />
+                    <Variable Name="Severity" AuditEvents="True" />
+                    <Variable Name="Facility" AuditEvents="True" />
+                    <Variable Name="Code" AuditEvents="True" />
+                  </Variable>
+                  <Variable Name="ExecutingCommand" AuditEvents="True" />
+                </Variable>
+                <Variable Name="MoveDone" AuditEvents="True" />
+              </Variable>
+              <Variable Name="Internal" AuditEvents="True">
+                <Variable Name="pObject" AuditEvents="True" />
+                <Variable Name="State" AuditEvents="True" />
+              </Variable>
+            </Variable>
+          </Variable>
+          <Variable Name="mp_cyclicSetRotary" Enable="True" EnableArrayElements="True">
+            <Variable Name="mp_cyclicSetRotary[0]" AuditEvents="True">
+              <Variable Name="MpLink" AuditEvents="True">
+                <Variable Name="Internal" AuditEvents="True" />
+              </Variable>
+              <Variable Name="Enable" AuditEvents="True" />
+              <Variable Name="ErrorReset" AuditEvents="True" />
+              <Variable Name="Parameters" AuditEvents="True">
+                <Variable Name="Acceleration" AuditEvents="True" />
+                <Variable Name="Deceleration" AuditEvents="True" />
+                <Variable Name="PositionModeMaxVelocity" AuditEvents="True" />
+                <Variable Name="VelocityModeDirection" AuditEvents="True" />
+                <Variable Name="PositionParID" AuditEvents="True" />
+                <Variable Name="VelocityParID" AuditEvents="True" />
+                <Variable Name="TorqueSetup" AuditEvents="True">
+                  <Variable Name="Mode" AuditEvents="True" />
+                  <Variable Name="SctrlKv" AuditEvents="True" />
+                  <Variable Name="SctrlTn" AuditEvents="True" />
+                  <Variable Name="RampedControl" AuditEvents="True">
+                    <Variable Name="TorqueRamp" AuditEvents="True" />
+                    <Variable Name="PositiveMaxVelocity" AuditEvents="True" />
+                    <Variable Name="NegativeMaxVelocity" AuditEvents="True" />
+                    <Variable Name="DisableVelocityLimits" AuditEvents="True" />
+                    <Variable Name="CompensateVelocityLimits" AuditEvents="True" />
+                    <Variable Name="EnableTimeLimit" AuditEvents="True" />
+                    <Variable Name="TimeLimit" AuditEvents="True" />
+                    <Variable Name="StartParID" AuditEvents="True" />
+                    <Variable Name="TorqueParID" AuditEvents="True" />
+                  </Variable>
+                </Variable>
+              </Variable>
+              <Variable Name="Update" AuditEvents="True" />
+              <Variable Name="Position" AuditEvents="True" />
+              <Variable Name="Velocity" AuditEvents="True" />
+              <Variable Name="Torque" AuditEvents="True" />
+              <Variable Name="CyclicPosition" AuditEvents="True" />
+              <Variable Name="CyclicVelocity" AuditEvents="True" />
+              <Variable Name="CyclicTorque" AuditEvents="True" />
+              <Variable Name="Active" AuditEvents="True" />
+              <Variable Name="Error" AuditEvents="True" />
+              <Variable Name="StatusID" AuditEvents="True" />
+              <Variable Name="UpdateDone" AuditEvents="True" />
+              <Variable Name="CommandBusy" AuditEvents="True" />
+              <Variable Name="CommandAborted" AuditEvents="True" />
+              <Variable Name="CyclicSetActive" AuditEvents="True" />
+              <Variable Name="Info" AuditEvents="True">
+                <Variable Name="AxisReady" AuditEvents="True" />
+                <Variable Name="PositionReceivedParID" AuditEvents="True" />
+                <Variable Name="VelocityReceivedParID" AuditEvents="True" />
+                <Variable Name="SlavePosition" AuditEvents="True" />
+                <Variable Name="SlaveVelocity" AuditEvents="True" />
+                <Variable Name="Diag" AuditEvents="True">
+                  <Variable Name="StatusID" AuditEvents="True">
+                    <Variable Name="ID" AuditEvents="True" />
+                    <Variable Name="Severity" AuditEvents="True" />
+                    <Variable Name="Code" AuditEvents="True" />
+                  </Variable>
+                  <Variable Name="Internal" AuditEvents="True">
+                    <Variable Name="ID" AuditEvents="True" />
+                    <Variable Name="Severity" AuditEvents="True" />
+                    <Variable Name="Facility" AuditEvents="True" />
+                    <Variable Name="Code" AuditEvents="True" />
+                  </Variable>
+                  <Variable Name="ExecutingCommand" AuditEvents="True" />
+                </Variable>
+                <Variable Name="TorqueControl" AuditEvents="True">
+                  <Variable Name="InTorque" AuditEvents="True" />
+                  <Variable Name="WaitingForStart" AuditEvents="True" />
+                  <Variable Name="VelocityLimitActive" AuditEvents="True" />
+                </Variable>
+              </Variable>
+              <Variable Name="Internal" AuditEvents="True">
+                <Variable Name="pObject" AuditEvents="True" />
+                <Variable Name="State" AuditEvents="True" />
+              </Variable>
+            </Variable>
+          </Variable>
+        </Variable>
+      </GlobalVariables>
+      <Task Name="simulation">
+        <Variable Name="i_ppd" Enable="True" />
+        <Variable Name="optical_sensor" Enable="True" EnableArrayElements="True">
+          <Variable Name="optical_sensor[0]" AuditEvents="True" />
+        </Variable>
+        <Variable Name="start_game" Enable="True" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

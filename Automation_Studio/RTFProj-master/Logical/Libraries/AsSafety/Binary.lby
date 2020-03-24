@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The AsSafety library provides function blocks for the safety system.">
+  <Files>
+    <File>AsSafety.fun</File>
+    <File>AsSafety.typ</File>
+    <File>AsSafety.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="standard" />
+    <Dependency ObjectName="astime" />
+    <Dependency ObjectName="FileIO" />
+    <Dependency ObjectName="AsXml" />
+  </Dependencies>
+</Library>

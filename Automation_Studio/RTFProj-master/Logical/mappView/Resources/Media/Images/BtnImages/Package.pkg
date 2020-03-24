@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Alarm.png</Object>
+    <Object Type="File">F_ball.png</Object>
+    <Object Type="File">Temperature.png</Object>
+    <Object Type="File">About.png</Object>
+    <Object Type="File">Safety.png</Object>
+    <Object Type="File">SDM.svg</Object>
+    <Object Type="File">Camera.svg</Object>
+    <Object Type="File">Options.svg</Object>
+    <Object Type="File">Home.svg</Object>
+    <Object Type="File">Home.png</Object>
+    <Object Type="File">Options.png</Object>
+    <Object Type="File">Camera.png</Object>
+    <Object Type="File">SDM.png</Object>
+    <Object Type="File">Graph.png</Object>
+    <Object Type="File">Position.png</Object>
+    <Object Type="File">Logout.svg</Object>
+    <Object Type="File">User.svg</Object>
+    <Object Type="File">Login.svg</Object>
+    <Object Type="File">Stop.svg</Object>
+    <Object Type="File">Start.svg</Object>
+    <Object Type="File">HTML.png</Object>
+    <Object Type="File">Overview.png</Object>
+    <Object Type="File">gear_run.png</Object>
+    <Object Type="File">soccer_ball.png</Object>
+    <Object Type="File">AboutW.png</Object>
+    <Object Type="File">AlarmW.png</Object>
+    <Object Type="File">CameraW.png</Object>
+    <Object Type="File">GraphW.png</Object>
+    <Object Type="File">HomeW.png</Object>
+    <Object Type="File">OptionsW.png</Object>
+    <Object Type="File">SafetyW.png</Object>
+    <Object Type="File">SDMW.png</Object>
+    <Object Type="File">TemperatureW.png</Object>
+    <Object Type="File">exit.png</Object>
+    <Object Type="File">strt.png</Object>
+  </Objects>
+</Package>

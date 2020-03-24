@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pdef:Page id="HomePage" layoutRefId="MyLayout" 
+	displayName="$navHome"
+	image="Media/Images/BtnImages/Home.png"
+	xmlns:pdef="http://www.br-automation.com/iat2015/pageDefinition/v2">
+  <Assignments>
+	<Assignment type="Content" baseContentRefId="ContentHomePage" areaRefId="AreaContent"
+		styleRefId="transparent" />
+	<Assignment type="Content" baseContentRefId="ContentInfo" areaRefId="AreaInfo"
+		styleRefId="transparent" />
+	<Assignment type="Content" baseContentRefId="ContentNavigation" areaRefId="AreaNavigation"
+		styleRefId="transparent" />
+  </Assignments>
+</pdef:Page>

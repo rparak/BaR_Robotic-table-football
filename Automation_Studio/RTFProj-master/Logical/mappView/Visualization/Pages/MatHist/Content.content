@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentMatHist" height="668" width="1166" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="10" left="10" width="1145" height="645" zIndex="0" text="$IAT/matHis" borderWidth="0px" cornerRadius="8px 8px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Table" id="Table4" top="30" left="20" width="1100" height="545" zIndex="0" multiLine="true" wordWrap="true" activeBackGroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,128,0,1) 100%)" activeInputCellTextColor="rgba(84, 84, 84, 1)" activeInputCellInnerShadow="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(198,198,198,1) 100%)" activeInputCellBackgroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(198,198,198,1) 100%)" activeTextColor="rgba(84, 84, 84, 1)" backGroundGradient="none" borderStyle="none" cellAlign="center center" cellBorderColor="rgba(200, 200, 200, 1)" disabledActiveTextColor="rgba(84, 84, 84, 1)" disabledActiveBackGroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(198,198,198,1) 100%)" disabledBackGroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(198,198,198,1) 100%)" disabledHeaderTextColor="rgba(84, 84, 84, 1)" disabledHeaderGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(198,198,198,1) 100%)" disabledTextColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" inputCellTextColor="rgba(84, 84, 84, 1)" inputCellInnerShadow="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(198,198,198,1) 100%)" inputCellBackgroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(198,198,198,1) 100%)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(198,198,198,1) 100%)" headerTextColor="rgba(84, 84, 84, 1)" textColor="rgba(84, 84, 84, 1)" bold="true" opacity="0.7" shadow="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(198,198,198,1) 100%)">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.TableItem" id="TableItem1" zIndex="0" columnWidth="220" maxLength="1000" maxValue="1000" text="Date" />
+            <Widget xsi:type="widgets.brease.TableItem" id="TableItem2" zIndex="1" columnWidth="220" maxLength="1000" maxValue="1000" text="Human - team name" />
+            <Widget xsi:type="widgets.brease.TableItem" id="TableItem3" zIndex="2" columnWidth="220" maxLength="1000" maxValue="1000" text="Score - human" />
+            <Widget xsi:type="widgets.brease.TableItem" id="TableItem4" zIndex="3" columnWidth="220" text="Score - Robot" />
+            <Widget xsi:type="widgets.brease.TableItem" id="TableItem5" zIndex="4" columnWidth="220" maxLength="1000" maxValue="1000" text="Robot - team name" />
+          </Widgets>
+        </Widget>
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

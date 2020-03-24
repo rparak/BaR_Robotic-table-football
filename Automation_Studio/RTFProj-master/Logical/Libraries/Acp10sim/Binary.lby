@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Library Version="3.16.2" Description="ACOPOS Simulation" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>acp10sim.var</File>
+    <File>acp10sim.typ</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="Acp10man" FromVersion="3.16.2" ToVersion="3.16.2" />
+  </Dependencies>
+</Library>

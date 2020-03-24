@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Library Version="1.60.1" Description="MpCom Library" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>MpCom.var</File>
+    <File>MpCom.typ</File>
+    <File>MpComError.typ</File>
+    <File>MpCom.fun</File>
+  </Files>
+</Library>

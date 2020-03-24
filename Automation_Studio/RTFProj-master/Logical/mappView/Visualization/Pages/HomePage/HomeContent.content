@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentHomePage" height="668" width="1166" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="10" left="10" width="1145" height="645" zIndex="0" text="$IAT/navHome" borderWidth="0px" cornerRadius="8px 8px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" fontName="TSTAR PRO" fontSize="14px">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Image" id="Image1" top="-60" left="467" width="693" height="685" zIndex="0" image="Media/Images/Other/homeView.png" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Image" id="Image2" top="196" left="10" width="410" height="83" zIndex="1" image="Media/Images/Other/fme.png" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Image" id="Image3" top="297" left="10" width="485" height="100" zIndex="2" image="Media/Images/Other/feec.png" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Image" id="Image5" top="434" left="10" width="290" height="103" zIndex="3" image="Media/Images/Other/ethpowerlink.png" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Image" id="Image7" top="35" left="29" width="490" height="103" zIndex="4" image="Media/Images/Other/br_perfect.png" borderWidth="0px" rotation="0deg" />
+        <Widget xsi:type="widgets.brease.Image" id="Image8" top="16" left="890" width="243" height="104" zIndex="5" image="Media/Images/Other/safetyOpen.png" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Image" id="Image6" top="397" left="329" width="330" height="263" zIndex="6" image="Media/Images/Other/mappView.png" borderWidth="0px" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentPosPage" height="668" width="1166" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="10" left="10" width="1145" height="645" zIndex="0" text="$IAT/navPos" borderWidth="0px" cornerRadius="8px 8px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Image" id="Image1" top="76" left="315" width="510" height="424" zIndex="0" image="Media/Images/Other/viewFromAbove.png" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox2" top="16" left="10" width="305" height="120" zIndex="1" text="$IAT/hpgk" borderWidth="0px" cornerRadius="8px 8px 8px 8px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(82, 132, 197, 1)100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Label" id="Label1" top="8" left="20" width="80" height="30" zIndex="0" text="$IAT/linr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.Label" id="Label2" top="44" left="20" width="80" height="30" zIndex="1" text="$IAT/rotr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="45" left="110" width="180" height="30" zIndex="2" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(176, 196, 222, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="8" left="110" width="180" height="30" zIndex="3" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(176, 196, 222, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox4" top="296" left="10" width="305" height="120" zIndex="2" text="$IAT/hpmd" borderWidth="0px" cornerRadius="8px 8px 8px 8px" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(82, 132, 197, 1)100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Label" id="Label5" top="48" left="20" width="80" height="30" zIndex="0" text="$IAT/rotr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.Label" id="Label8" top="8" left="20" width="80" height="30" zIndex="1" text="$IAT/linr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput6" top="8" left="110" width="180" height="30" zIndex="2" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(176, 196, 222, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput5" top="48" left="110" width="180" height="30" zIndex="3" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(176, 196, 222, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox5" top="436" left="10" width="305" height="120" zIndex="3" text="$IAT/hpfw" borderWidth="0px" cornerRadius="8px 8px 8px 8px" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(82, 132, 197, 1)100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Label" id="Label7" top="8" left="20" width="80" height="30" zIndex="0" text="$IAT/linr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.Label" id="Label6" top="48" left="20" width="80" height="30" zIndex="1" text="$IAT/rotr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput7" top="9" left="110" width="180" height="30" zIndex="2" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(176, 196, 222, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput8" top="49" left="110" width="180" height="30" zIndex="3" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(176, 196, 222, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox3" top="156" left="10" width="305" height="120" zIndex="4" text="$IAT/hpdf" borderWidth="0px" cornerRadius="8px 8px 8px 8px" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(82, 132, 197, 1)100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Label" id="Label4" top="48" left="20" width="80" height="30" zIndex="0" text="$IAT/rotr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.Label" id="Label3" top="8" left="20" width="80" height="30" zIndex="1" text="$IAT/linr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="45" left="110" width="180" height="30" zIndex="2" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(176, 196, 222, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput4" top="8" left="110" width="180" height="30" zIndex="3" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(176, 196, 222, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox9" top="156" left="830" width="305" height="120" zIndex="5" text="$IAT/rpdf" borderWidth="0px" cornerRadius="8px 8px 8px 8px" headerBackColor="rgba(255, 255, 255, 0)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(234, 97, 97,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Label" id="Label11" top="8" left="20" width="80" height="30" zIndex="0" text="$IAT/linr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.Label" id="Label14" top="48" left="20" width="80" height="30" zIndex="1" text="$IAT/rotr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput11" top="9" left="110" width="180" height="30" zIndex="2" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(255, 192, 192, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput12" top="49" left="110" width="180" height="30" zIndex="3" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(255, 192, 192, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox8" top="436" left="830" width="305" height="120" zIndex="6" text="$IAT/rpfw" borderWidth="0px" cornerRadius="8px 8px 8px 8px" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(234, 97, 97,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Label" id="Label13" top="8" left="20" width="80" height="30" zIndex="0" text="$IAT/linr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.Label" id="Label16" top="48" left="20" width="80" height="30" zIndex="1" text="$IAT/rotr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput15" top="9" left="110" width="180" height="30" zIndex="2" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(255, 192, 192, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput16" top="49" left="110" width="180" height="30" zIndex="3" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(255, 192, 192, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox7" top="296" left="830" width="305" height="120" zIndex="7" text="$IAT/rpmd" borderWidth="0px" cornerRadius="8px 8px 8px 8px" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(234, 97, 97,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Label" id="Label12" top="8" left="20" width="80" height="30" zIndex="0" text="$IAT/linr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.Label" id="Label15" top="48" left="20" width="80" height="30" zIndex="1" text="$IAT/rotr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput13" top="9" left="110" width="180" height="30" zIndex="2" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(255, 192, 192, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput14" top="49" left="110" width="180" height="30" zIndex="3" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(255, 192, 192, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox6" top="16" left="830" width="305" height="120" zIndex="8" text="$IAT/rpgk" borderWidth="0px" cornerRadius="8px 8px 8px 8px" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(234, 97, 97,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Label" id="Label9" top="8" left="20" width="80" height="30" zIndex="0" text="$IAT/linr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.Label" id="Label10" top="48" left="20" width="80" height="30" zIndex="1" text="$IAT/rotr" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="12px" bold="true" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput9" top="9" left="110" width="180" height="30" zIndex="2" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(255, 192, 192, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput10" top="49" left="110" width="180" height="30" zIndex="3" maxValue="100000" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(255, 192, 192, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+          </Widgets>
+        </Widget>
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

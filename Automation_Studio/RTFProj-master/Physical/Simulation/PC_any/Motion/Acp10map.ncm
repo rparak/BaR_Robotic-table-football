@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=?>
+<NcMapping NcSwId="Acp10" DisabledNodesAreHidden="False">
+  <NcObject Name="gkRotS" ModuleId="80VD100PD.C000-01" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gkRotSi" AcoposParameter="gkRotSa" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="dfRotS" ModuleId="80VD100PD.C000-01" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="dfRotSi" AcoposParameter="dfRotSa" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="80VD100PD.C000-01_ncV_AXIS1" ModuleId="80VD100PD.C000-01" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="80VD100PD.C000-01_ncV_AXIS2" ModuleId="80VD100PD.C000-01" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gkLinS" ModuleId="80VD100PD.C188-01" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gkLinSi" AcoposParameter="gkLinSa" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="dfLinS" ModuleId="80VD100PD.C188-01" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="dfLinSi" AcoposParameter="dfLinSa" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="80VD100PD.C188-01_ncV_AXIS1" ModuleId="80VD100PD.C188-01" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="80VD100PD.C188-01_ncV_AXIS2" ModuleId="80VD100PD.C188-01" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="mdRotS" ModuleId="80VD100PD.C000-01a" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="mdRotSi" AcoposParameter="mdRotSa" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="fwRotS" ModuleId="80VD100PD.C000-01a" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="fwRotSi" AcoposParameter="fwRotSa" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="80VD100PD.C000-01a_ncV_AXIS1" ModuleId="80VD100PD.C000-01a" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="80VD100PD.C000-01a_ncV_AXIS2" ModuleId="80VD100PD.C000-01a" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="mdLinS" ModuleId="80VD100PD.C188-01a" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="mdLinSi" AcoposParameter="mdLinSa" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="fwLinS" ModuleId="80VD100PD.C188-01a" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="fwLinSi" AcoposParameter="fwLinSa" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="80VD100PD.C188-01a_ncV_AXIS1" ModuleId="80VD100PD.C188-01a" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="80VD100PD.C188-01a_ncV_AXIS2" ModuleId="80VD100PD.C188-01a" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+</NcMapping>

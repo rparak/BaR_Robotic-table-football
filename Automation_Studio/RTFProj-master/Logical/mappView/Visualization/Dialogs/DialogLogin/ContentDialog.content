@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentDialogLogin" height="300" width="500" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="20" left="320" width="160" height="180" zIndex="0" image="Media/Images/BtnImages/User.svg" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.Image" id="Image2" top="130" left="369" width="60" height="50" zIndex="1" image="Media/Images/Other/br_automation.png" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.LoginInfo" id="LoginInfo1" top="180" left="341" width="120" height="30" zIndex="2" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(235, 235, 235, 1)" borderColor="rgba(241, 241, 241, 1)" borderStyle="solid" textColor="rgba(84, 84, 84, 1)" textAlign="center" fontName="TSTAR PRO" fontSize="16px" bold="true" shadow="1px 1px 4px 0px rgba(190, 190, 190, 0.75)" />
+    <Widget xsi:type="widgets.brease.Image" id="Image3" top="180" left="40" width="120" height="100" zIndex="3" image="Media/Images/Other/brAll.png" />
+    <Widget xsi:type="widgets.brease.Login" id="Login1" top="20" left="0" width="300" height="160" zIndex="4" buttonLabel="$IAT/prhls" buttonStyle="MyButton" passwordInputStyle="MyTxtInputPsw" userInputStyle="MyTxtInput" />
+  </Widgets>
+</Content>

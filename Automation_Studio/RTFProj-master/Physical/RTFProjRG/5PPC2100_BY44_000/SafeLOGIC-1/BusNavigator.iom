@@ -1,0 +1,20 @@
+<!--xml version= "1.0" encoding="utf-8"-->
+<!--IOMapping Version="4.0"-->
+<IOOffsets SIBytes="2048" SOBytes="2048" NSIBytes="1024" NSOBytes="1024" ConnectionsValidOffset="24" >
+		<Module Name="SL1.SM1" Hardware="X20SLX842" SafeLogicID="1" SafeModuleID="1" SISize="8" SOSize="2" NSISize="20" NSOSize="20" SIOffset="16" SOOffset="12" NSIOffset="0" NSOOffset="0" HWTypeCode="63" >
+			<Channel Name="SafeDigitalInput01" Mapping="SIX16.0" Variable="SDI_SSD1" SODIndex="0x9999" SODSubIndex="0x1" />
+			<Channel Name="SafeDigitalInput02" Mapping="SIX16.1" Variable="SDI_SSD2" Address="Cyclic#1.::table_foot:OSSD2" SODIndex="0x9999" SODSubIndex="0x1" />
+			<Channel Name="SafeDigitalInput03" Mapping="SIX16.2" Variable="SDI_ESTOP" Address="Cyclic#1.::table_foot:ESTOP" SODIndex="0x9999" SODSubIndex="0x1" />
+			<Channel Name="SafeDigitalOutput01" Mapping="SQX12.0" Variable="SDO_ACOPOSR1" SODIndex="0x9999" SODSubIndex="0x4" />
+			<Channel Name="SafeDigitalOutput02" Mapping="SQX12.1" Variable="SDO_ACOPOSR2" SODIndex="0x9999" SODSubIndex="0x4" />
+			<Channel Name="SafeDigitalOutput03" Mapping="SQX12.2" Variable="SDO_ACOPOSL1" SODIndex="0x9999" SODSubIndex="0x4" />
+			<Channel Name="SafeDigitalOutput04" Mapping="SQX12.3" Variable="SDO_ACOPOSL2" SODIndex="0x9999" SODSubIndex="0x4" />
+			<Channel Name="ReleaseOutput01" Mapping="NSQX1.0" Variable="DO_RELEASE_ACR1" SODIndex="0x9999" SODSubIndex="0x7" />
+			<Channel Name="ReleaseOutput02" Mapping="NSQX1.1" Variable="DO_RELEASE_ACR2" SODIndex="0x9999" SODSubIndex="0x7" />
+			<Channel Name="ReleaseOutput03" Mapping="NSQX1.2" Variable="DO_RELEASE_ACL1" SODIndex="0x9999" SODSubIndex="0x7" />
+			<Channel Name="ReleaseOutput04" Mapping="NSQX1.3" Variable="DO_RELEASE_ACL2" SODIndex="0x9999" SODSubIndex="0x7" />
+			<Channel Name="BOOL001" Mapping="NSQX0.0" Variable="COM_ERROR_SF_ESTOP" SODIndex="0x2580" SODSubIndex="0x1" />
+			<Channel Name="BOOL002" Mapping="NSQX0.1" Variable="COM_RESET_SF_ESPE" SODIndex="0x2580" SODSubIndex="0x1" />
+			<Channel Name="BOOL101" Mapping="NSIX0.0" Variable="COM_RESET_SF" Address="Cyclic#1.::table_foot:reset_safetyESTOP" SODIndex="0x2500" SODSubIndex="0x2" />
+		</Module>
+</IOOffsets>

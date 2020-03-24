@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Physical xmlns="http://br-automation.co.at/AS/Physical">
+  <Objects>
+    <Object Type="Configuration">Simulation</Object>
+    <Object Type="Configuration">RTFProjRG</Object>
+  </Objects>
+</Physical>

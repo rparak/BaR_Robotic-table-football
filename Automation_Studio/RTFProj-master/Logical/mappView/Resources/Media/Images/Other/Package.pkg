@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">game_playground.png</Object>
+    <Object Type="File">br_automation.png</Object>
+    <Object Type="File">hum_no1.png</Object>
+    <Object Type="File">hum_no2.png</Object>
+    <Object Type="File">feec.png</Object>
+    <Object Type="File">fme.png</Object>
+    <Object Type="File">pie.png</Object>
+    <Object Type="File">sideView.png</Object>
+    <Object Type="File">topView.png</Object>
+    <Object Type="File">viewFromAbove.png</Object>
+    <Object Type="File">homeView.png</Object>
+    <Object Type="File">playgrPlayers.png</Object>
+    <Object Type="File">br_perfect.png</Object>
+    <Object Type="File">ethpowerlink.png</Object>
+    <Object Type="File">safetyOpen.png</Object>
+    <Object Type="File">mappView.png</Object>
+    <Object Type="File">pm.png</Object>
+    <Object Type="File">AlarmHistory.svg</Object>
+    <Object Type="File">Export.svg</Object>
+    <Object Type="File">AlarmLst.png</Object>
+    <Object Type="File">Acknowledge.svg</Object>
+    <Object Type="File">ackall.png</Object>
+    <Object Type="File">alrmx.png</Object>
+    <Object Type="File">seko.png</Object>
+    <Object Type="File">PDF.png</Object>
+    <Object Type="File">brAll.png</Object>
+    <Object Type="File">alrmxG.png</Object>
+    <Object Type="File">tab.png</Object>
+    <Object Type="File">pb.png</Object>
+    <Object Type="File">pbD.png</Object>
+    <Object Type="File">hb.png</Object>
+    <Object Type="File">hbD.png</Object>
+    <Object Type="File">match_ball.png</Object>
+    <Object Type="File">cognex.png</Object>
+    <Object Type="File">logo_cognex.png</Object>
+    <Object Type="File">front2.png</Object>
+    <Object Type="File">green.png</Object>
+    <Object Type="File">red.png</Object>
+  </Objects>
+</Package>

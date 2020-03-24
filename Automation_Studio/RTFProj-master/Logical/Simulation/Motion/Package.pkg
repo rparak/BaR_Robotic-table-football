@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="dfRotSobj">dfRotSobj</Object>
+    <Object Type="Package" Description="gkRotSobj">gkRotSobj</Object>
+    <Object Type="Package" Description="dfLinSobj">dfLinSobj</Object>
+    <Object Type="Package" Description="gkLinSobj">gkLinSobj</Object>
+    <Object Type="Package" Description="fwRotSobj">fwRotSobj</Object>
+    <Object Type="Package" Description="mdRotSobj">mdRotSobj</Object>
+    <Object Type="Package" Description="fwLinSobj">fwLinSobj</Object>
+    <Object Type="Package" Description="mdLinSobj">mdLinSobj</Object>
+  </Objects>
+</Package>

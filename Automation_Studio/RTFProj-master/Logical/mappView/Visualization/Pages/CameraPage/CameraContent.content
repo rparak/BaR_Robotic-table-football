@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentCameraPage" height="668" width="1166" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="10" left="10" width="1145" height="645" zIndex="0" text="$IAT/navCam" borderWidth="0px" cornerRadius="8px 8px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" borderStyle="none" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox2" top="16" left="10" width="490" height="384" zIndex="0" text="$IAT/gInfo" borderWidth="0px" cornerRadius="8px 8px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="286" left="240" width="220" height="30" zIndex="0" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(245, 245, 245, 1)" borderStyle="solid" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="46" left="80" width="160" height="30" zIndex="1" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(245, 245, 245, 1)" textColor="rgba(84, 84, 84, 1)" textAlign="right" opacity="1" fontName="TSTAR PRO" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" enable="false" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput4" top="46" left="260" width="160" height="30" zIndex="2" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(245, 245, 245, 1)" textColor="rgba(84, 84, 84, 1)" textAlign="right" opacity="1" fontName="TSTAR PRO" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" enable="false" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="86" left="80" width="160" height="30" zIndex="3" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(245, 245, 245, 1)" textColor="rgba(84, 84, 84, 1)" textAlign="right" opacity="1" fontName="TSTAR PRO" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" enable="false" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="86" left="260" width="160" height="30" zIndex="4" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(245, 245, 245, 1)" textColor="rgba(84, 84, 84, 1)" textAlign="right" opacity="1" fontName="TSTAR PRO" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" enable="false" />
+            <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput5" top="166" left="80" width="160" height="30" zIndex="5" borderWidth="1px 1px 1px 1px" cornerRadius="5px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(245, 245, 245, 1)" textColor="rgba(84, 84, 84, 1)" textAlign="right" opacity="1" fontName="TSTAR PRO" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" enable="false" />
+            <Widget xsi:type="widgets.brease.Label" id="Label1" top="46" left="40" width="30" height="30" zIndex="6" text="X" />
+            <Widget xsi:type="widgets.brease.Label" id="Label2" top="86" left="40" width="30" height="30" zIndex="7" text="Y" />
+            <Widget xsi:type="widgets.brease.Label" id="Label3" top="166" left="40" width="30" height="30" zIndex="8" text="t" />
+            <Widget xsi:type="widgets.brease.Label" id="Label4" top="286" left="140" width="80" height="30" zIndex="9" text="$IAT/gsm" />
+            <Widget xsi:type="widgets.brease.Label" id="Label5" top="6" left="80" width="140" height="30" zIndex="10" text="$IAT/posK1" />
+            <Widget xsi:type="widgets.brease.Label" id="Label6" top="6" left="260" width="140" height="30" zIndex="11" text="$IAT/posK" />
+            <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput2" top="166" left="260" width="160" height="30" zIndex="12" value="Whole" borderWidth="1px" cornerRadius="5px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(245, 245, 245, 1)" textColor="rgba(84, 84, 84, 1)" textAlign="right" fontName="TSTAR PRO" shadow="3px 3px 8px 0px rgba(190, 190, 190, 0.75)" />
+            <Widget xsi:type="widgets.brease.Label" id="Label7" top="126" left="260" width="140" height="30" zIndex="13" text="$IAT/ZoneString" />
+            <Widget xsi:type="widgets.brease.BasicSlider" id="BasicSlider1" top="206" left="60" width="380" height="100" zIndex="14" smallChange="10" />
+            <Widget xsi:type="widgets.brease.Label" id="Label8" top="206" left="60" width="140" height="30" zIndex="15" text="$IAT/LightIntezity" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.Image" id="Image1" top="-23" left="550" width="730" height="605" zIndex="1" image="Media/Images/Other/front2.png" />
+        <Widget xsi:type="widgets.brease.Image" id="Image2" top="420" left="20" width="198" height="142" zIndex="2" image="Media/Images/Other/cognex.png" />
+        <Widget xsi:type="widgets.brease.Image" id="Image3" top="476" left="150" width="350" height="104" zIndex="3" image="Media/Images/Other/logo_cognex.png" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

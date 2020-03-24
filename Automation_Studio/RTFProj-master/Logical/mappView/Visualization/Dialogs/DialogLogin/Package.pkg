@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Package PackageType="DialogPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Dialog">DialogLogin.dialog</Object>
+    <Object Type="File">ContentDialog.content</Object>
+  </Objects>
+</Package>

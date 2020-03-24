@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">LibAsUDP1_ST.typ</Object>
+    <Object Type="File" Description="Global variables">LibAsUDP1_ST.var</Object>
+    <Object Type="Program" Language="IEC" Description="AsUDP Client Application">Client</Object>
+  </Objects>
+  <Dependencies>
+    <Dependency ObjectName="asudp" />
+  </Dependencies>
+</Package>

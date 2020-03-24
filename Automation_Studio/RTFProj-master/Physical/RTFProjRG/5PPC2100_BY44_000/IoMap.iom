@@ -1,0 +1,27 @@
+VAR_CONFIG
+	::cam_det.InSight.ModuleOk AT %IX."In-Sight".ModuleOk;
+	::cam_det.InSight.Control_I2000_S01 AT %QD."In-Sight".Control_I2000_S01;
+	::cam_det.InSight.Status_I2001_S01 AT %ID."In-Sight".Status_I2001_S01;
+	::cam_det.InSight.InspectionResults_I2011_S01 AT %ID."In-Sight".InspectionResults_I2011_S01; (*X*)
+	::cam_det.InSight.InspectionResults_I2011_S02 AT %ID."In-Sight".InspectionResults_I2011_S02; (*Y*)
+	::GoalKeeper_0.DI9371.DigitalInput_1 AT %IX."X20DI9371".DigitalInput05;
+	::GoalKeeper_0.DI9371.ModuleOk AT %IX."X20DI9371".ModuleOk;
+	::Light_0.DO9322.ModuleOK AT %IX."X20DO9322".ModuleOk;
+	::Light_0.DO9322.DigitalOutput AT %QX."X20DO9322".DigitalOutput01;
+	::GoalKeeper_0.DI9371.DigitalInput_2 AT %IX."X20DI9371".DigitalInput06;
+	Cyclic#1.::table_foot:reset_safetyESTOP AT %QX."X20SLX842".BOOL101;
+	Cyclic#1.::table_foot:ESTOP AT %IX."X20SLX842".SafeDigitalInput03;
+	Cyclic#1.::table_foot:OSSD2 AT %IX."X20SLX842".SafeDigitalInput02;
+	Cyclic#1.::table_foot:SAFETY_MODUL_OK AT %IX."X20SLX842".ModuleOk;
+	::table_foot:dpA.ActPosSens[0] AT %IW."X20AI2632".AnalogInput01;
+	::table_foot:dpA.ActPosSens[1] AT %IW."X20AI2632".AnalogInput02;
+	::table_foot:dpA.ActPosSens[3] AT %IW."X20AI2622".AnalogInput01;
+	::table_foot:dpA.ActPosSens[2] AT %IW."X20AI2622".AnalogInput02;
+	::cam_det.InSight.InspectionResults_I2011_S03 AT %ID."In-Sight".InspectionResults_I2011_S03;
+	::cam_det.InSight.InspectionResults_I2011_S04 AT %ID."In-Sight".InspectionResults_I2011_S04;
+	::cam_det.InSight.UserData_I2021_S01 AT %QD."In-Sight".UserData_I2021_S01;
+	::table_foot:dpA.ReflexSensStatus[3] AT %IX."X20DI9371".DigitalInput01;
+	::table_foot:dpA.ReflexSensStatus[2] AT %IX."X20DI9371".DigitalInput02;
+	::table_foot:dpA.ReflexSensStatus[0] AT %IX."X20DI9371".DigitalInput03;
+	::table_foot:dpA.ReflexSensStatus[1] AT %IX."X20DI9371".DigitalInput04;
+END_VAR

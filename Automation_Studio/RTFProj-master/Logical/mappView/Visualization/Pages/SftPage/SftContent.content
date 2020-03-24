@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentSftPage" height="668" width="1166" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="10" left="10" width="1145" height="645" zIndex="0" text="$IAT/navSft" borderWidth="0px" cornerRadius="8px 8px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" borderColor="rgba(190, 190, 190, 0.75)" textColor="rgba(84, 84, 84, 1)" fontName="TSTAR PRO" fontSize="14px">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Image" id="Image1" top="-22" left="130" width="830" height="643" zIndex="0" image="Media/Images/Other/viewFromAbove.png" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Image" id="Image2" top="475" left="30" width="270" height="105" zIndex="1" image="Media/Images/Other/safetyOpen.png" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList1" top="70" left="270" width="410" height="456" zIndex="2" imageList="['green.png', 'red.png']" imagePrefix="Media/Images/Other/" opacity="0.7" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

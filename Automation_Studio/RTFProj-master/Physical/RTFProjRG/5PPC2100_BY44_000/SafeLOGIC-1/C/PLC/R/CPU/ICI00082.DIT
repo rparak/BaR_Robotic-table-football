@@ -1,0 +1,160 @@
+(*
+T: FUNCTION_BLOCK SF_EmergencyStop_V1_00
+FW: YES	NO_VARIANT SF_EmergencyStop_V1_00 SKIP_NOTHING	
+CI#: 82
+QSL: 0
+QVE: 25
+QVPC: 25
+QPar: 9
+QFBI: 1
+*)
+
+InternalS_EStopIn	1	VAR	@TYP:1
+		     
+
+;
+
+
+InternalS_StartReset	2	VAR	@TYP:1
+		     
+
+;
+
+
+InternalS_AutoReset	3	VAR	@TYP:1
+		     
+
+;
+
+
+InternalState	4	VAR	@TYP:18
+		     
+
+;
+
+
+InternalState1	5	VAR	@TYP:18
+		     
+
+;
+
+
+Q_R_TRIG_Reset	6	VAR	@TYP:1
+		     
+
+;
+
+
+R_TRIG_Reset	7	VAR	@FB:16
+		     
+
+;
+
+
+Activate	8	VAR_INPUT	@TYP:1
+		     
+
+;
+
+
+S_EStopIn	9	VAR_INPUT	@TYP:43
+		     
+
+;
+PFW: VAR
+
+S_StartReset	10	VAR_INPUT	@TYP:43
+		     
+
+;
+
+
+S_AutoReset	11	VAR_INPUT	@TYP:43
+		     
+
+;
+
+
+Reset	12	VAR_INPUT	@TYP:1
+		     
+
+;
+PFW: VAR
+
+Ready	13	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+
+S_EStopOut	14	VAR_OUTPUT	@TYP:43
+		     
+
+;
+
+
+Error	15	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+
+DiagCode	16	VAR_OUTPUT	@TYP:18
+		     
+
+;
+PFW: DIA
+
+__Code@0	17	VAR	@TYP:1
+		     
+
+;
+
+
+__Code@1	18	VAR	@TYP:1
+		     
+
+;
+
+
+__Code@2	19	VAR	@TYP:1
+		     
+
+;
+
+
+__Code@3	20	VAR	@TYP:1
+		     
+
+;
+
+
+__Code@4	21	VAR	@TYP:1
+		     
+
+;
+
+
+__Code@5	22	VAR	@TYP:1
+		     
+
+;
+
+
+__Code@6	23	VAR	@TYP:1
+		     
+
+;
+
+
+__Code@7	24	VAR	@TYP:1
+		     
+
+;
+
+
+__Code@8	25	VAR	@TYP:1
+		     
+
+;
+

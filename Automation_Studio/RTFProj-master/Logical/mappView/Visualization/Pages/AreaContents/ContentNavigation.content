@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentNavigation" height="100" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Navigation" id="Navigation1" top="1" left="1" width="1366" height="100" zIndex="0" alignment="horizontal" buttonHeight="80" buttonImageAlign="top" buttonWidth="134" navRefId="MainNavigation" buttonMargin="1px" />
+  </Widgets>
+</Content>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EventBindingSet id="MyEventBinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2"
+                 xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+		<!-- Login Dialog -->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.Image.Event" 
+				contentRefId="ContentInfo"
+				widgetRefId="Image1"
+			event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="DialogLogin" horizontalPos="center" verticalPos="middle" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		<!-- Start Dialog -->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.Image.Event" 
+				contentRefId="ContentGamePage"
+				widgetRefId="Image5"
+			event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="DialogStart" horizontalPos="center" verticalPos="middle" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<EventBinding>
+			<Source xsi:type="widgets.brease.NavigationButton.Event" 
+				contentRefId="ContentDiagStart"
+				widgetRefId="NavigationButton2"
+			event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.CloseDialog" dialogId="DialogStart"/>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		<!-- End Game Dialog -->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.Image.Event" 
+				contentRefId="ContentMatchPage"
+				widgetRefId="Image5"
+			event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="DialogEnd" horizontalPos="center" verticalPos="middle" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<EventBinding>
+			<Source xsi:type="widgets.brease.NavigationButton.Event" 
+				contentRefId="ContentDiagEnd"
+				widgetRefId="NavigationButton2"
+			event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.CloseDialog" dialogId="DialogEnd"/>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<EventBinding>
+			<Source xsi:type="widgets.brease.NavigationButton.Event" 
+				contentRefId="ContentDiagEnd"
+				widgetRefId="NavigationButton3"
+			event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.CloseDialog" dialogId="DialogEnd"/>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+
+    <!-- **********************************************************
+			 * source tempates => copy them to your EventBinding Source
+		     * change elements to your requirements
+		     * for further possible Events refer to help system
+		     ********************************************************** -->
+    <!--<Source xsi:type="opcUa.Event" refId="::Program:boolVariableEvent" event="ValueChanged" />-->
+
+    <!--<Source xsi:type="session.Event" refId="sessionVariable" event="ValueChanged" />-->
+
+    <!--<Source xsi:type="widgets.brease.Button.Event" contentRefId="Content1" widgetRefId="Button1" event="Click" />-->
+
+    <!-- **********************************************************
+		      * target tempates => copy them to your EventBinding Action
+		      * change elements to your requirements 
+		      * for further possible Actions refer to help system
+		      ********************************************************** -->
+    <!--<Target xsi:type="opcUa.NodeAction" refId="::Program:Variable1" >
+			<Method xsi:type="opcUa.NodeAction.SetValueNumber" value="37.1" />
+		</Target>-->
+
+    <!--<Target xsi:type="session.VariableAction" refId="Variable1" >
+			<Method xsi:type="session.VariableAction.SetValueNumber" value="4.8" />
+		</Target>-->
+
+    <!--<Target xsi:type="clientSystem.Action">
+		    <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialog1" mode="modal" />
+		</Target>-->
+
+    <!--<Target xsi:type="clientSystem.Action">
+			<Method xsi:type="clientSystem.Action.Navigate" pageId="Page1" />
+		</Target>-->
+
+    <!--<Target xsi:type="widgets.brease.Button.Action" contentRefId="Content1" widgetRefId="Button1" >
+			<Method xsi:type="widgets.brease.Button.Action.SetEnable" />
+		</Target>-->
+
+    <!--<Target xsi:type="clientSystem.Action">
+			<Method xsi:type="clientSystem.Action.ShowMessageBox" type="OKCancel" message="Messagetext" header="Warning!" icon="Warning"  />
+		</Target>
+		<Result>
+			<ResultHandler condition="result = 4">
+				
+			</ResultHandler>
+		</Result>-->
+
+  </Bindings>
+</EventBindingSet>

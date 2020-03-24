@@ -1,0 +1,7 @@
+VAR CONSTANT
+	ERR_BALL_OUTRANGE : UINT := 61125; (*Ball is out of range*)
+	ERR_OK : UINT := 0;
+	FB_DISABLED : UINT := 65534; (*Function block is disabled*)
+	ERR_CAM_NOTFOUND : UINT := 65533; (*Camera not found*)
+	ERR_FTP_NOTREADY : UINT := 62687; (*FTP not ready*)
+END_VAR

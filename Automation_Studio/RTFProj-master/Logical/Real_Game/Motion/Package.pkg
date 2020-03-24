@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="rotaryFWobj">rotaryFWobj</Object>
+    <Object Type="Package" Description="rotaryMDobj">rotaryMDobj</Object>
+    <Object Type="Package" Description="linearFWobj">linearFWobj</Object>
+    <Object Type="Package" Description="linearMDobj">linearMDobj</Object>
+    <Object Type="Package" Description="rotDFobj">rotDFobj</Object>
+    <Object Type="Package" Description="rotDFVobj">rotDFVobj</Object>
+    <Object Type="Package" Description="rotGKobj">rotGKobj</Object>
+    <Object Type="Package" Description="linDFobj">linDFobj</Object>
+    <Object Type="Package" Description="linDFVobj">linDFVobj</Object>
+    <Object Type="Package" Description="linGKobj">linGKobj</Object>
+  </Objects>
+</Package>

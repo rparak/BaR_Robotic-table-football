@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="5LS182.6-1" Type="5LS182.6-1" Version="1.3.0.0">
+    <Connection Connector="SL" TargetModule="PC_any" TargetConnector="SL1" />
+    <Connector Name="IF1">
+      <Parameter ID="EplInterfaceRedundant" Value="0" />
+      <Parameter ID="EplEthInterfaceRedundant" Value="0" />
+    </Connector>
+  </Module>
+  <Module Name="80VD100PD.C000-01" Type="80VD100PD.C000-01" Version="2.0.1.0">
+    <Connection Connector="PLK1" TargetModule="X20BC0083" TargetConnector="PLK2" NodeNumber="2" />
+    <Connection Connector="PLK2" TargetModule="80VD100PD.C188-01" TargetConnector="PLK1" NodeNumber="2" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r2" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r2" Value="on" />
+  </Module>
+  <Module Name="80VD100PD.C000-01a" Type="80VD100PD.C000-01" Version="2.0.1.0">
+    <Connection Connector="PLK1" TargetModule="80VD100PD.C188-01" TargetConnector="PLK2" NodeNumber="4" />
+    <Connection Connector="PLK2" TargetModule="80VD100PD.C188-01a" TargetConnector="PLK1" NodeNumber="4" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r2" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r2" Value="on" />
+  </Module>
+  <Module Name="80VD100PD.C188-01" Type="80VD100PD.C188-01" Version="2.0.1.0">
+    <Connection Connector="PLK1" TargetModule="80VD100PD.C000-01" TargetConnector="PLK2" NodeNumber="3" />
+    <Connection Connector="PLK2" TargetModule="80VD100PD.C000-01a" TargetConnector="PLK1" NodeNumber="3" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r2" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r2" Value="on" />
+  </Module>
+  <Module Name="80VD100PD.C188-01a" Type="80VD100PD.C188-01" Version="2.0.1.0">
+    <Connection Connector="PLK1" TargetModule="80VD100PD.C000-01a" TargetConnector="PLK2" NodeNumber="5" />
+    <Connection Connector="PLK2" TargetModule="In-Sight" TargetConnector="PLK1" NodeNumber="5" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r2" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r2" Value="on" />
+  </Module>
+  <Module Name="In-Sight" Type="FBE.0000031D_In-Sight-7000" Version="4.8.0" Disabled="true" OrderNumber="In-Sight">
+    <Connection Connector="PLK1" TargetModule="80VD100PD.C188-01a" TargetConnector="PLK2" NodeNumber="6" />
+    <Parameter ID="p2000s01_direction" Value="wo" />
+    <Parameter ID="p2000s02_direction" Value="wo" />
+    <Parameter ID="p2001s01_direction" Value="ro" />
+    <Parameter ID="p2001s02_direction" Value="ro" />
+    <Parameter ID="p2001s03_direction" Value="ro" />
+    <Parameter ID="p2010s02_direction" Value="ro" />
+    <Parameter ID="p2011s01_direction" Value="ro" />
+    <Parameter ID="p2011s02_direction" Value="ro" />
+  </Module>
+  <Module Name="PC_any" Type="PC_any" Version="1.1.0.0" OrderNumber="PC">
+    <Parameter ID="ConfigurationID" Value="rp_masterThesis_SoccerTable_Simulation" />
+    <Parameter ID="SystemTick" Value="2000" />
+    <Parameter ID="Cyclic1Duration" Value="2000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic2Duration" Value="200000" />
+    <Parameter ID="Cyclic2Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic3Duration" Value="500000" />
+    <Parameter ID="Cyclic3Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic4Duration" Value="1000000" />
+    <Parameter ID="Cyclic4Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic5Duration" Value="2000000" />
+    <Parameter ID="Cyclic5Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic6Duration" Value="3000000" />
+    <Parameter ID="Cyclic6Tolerance" Value="12000000" />
+    <Parameter ID="Cyclic7Duration" Value="4000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="12000000" />
+    <Parameter ID="Cyclic8Duration" Value="5000000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="EXPORT_HISTORY" />
+    <Parameter ID="FileDevicePath1" Value="C:\Temp\AlarmX\SOCCER_TABLE" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUa_Security_SoftwareCertificates" Value="" />
+    <Parameter ID="Temp.ProjectDirectory" Value="C:\projects\ProjectRealST\" />
+    <Parameter ID="Temp.ConfigurationName" Value="Simulation" />
+  </Module>
+  <Module Name="X20AI4632" Type="X20AI4632" Version="1.1.3.1">
+    <Connection Connector="SS1" TargetModule="X20TB12c" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20BB80" Type="X20BB80" Version="1.0.0.2" />
+  <Module Name="X20BC0083" Type="X20BC0083" Version="2.5.2.0">
+    <Connection Connector="PLK1" TargetModule="5LS182.6-1" TargetConnector="IF1" NodeNumber="1" />
+    <Connection Connector="PLK2" TargetModule="80VD100PD.C000-01" TargetConnector="PLK1" NodeNumber="1" />
+    <Connection Connector="SL" TargetModule="X20BB80" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20cBM11a" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM33" Type="X20BM33" Version="1.0.0.4">
+    <Connection Connector="X2X1" TargetModule="X20BM11" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20PS9400" Type="X20PS9400" Version="1.0.2.4">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="PS" TargetModule="X20BB80" TargetConnector="PS1" />
+  </Module>
+  <Module Name="X20SLX842" Type="X20SLX842" Version="1.10.1.2">
+    <Connection Connector="SS1" TargetModule="X20TB52" TargetConnector="SS" />
+    <Connection Connector="SS2" TargetModule="X20TB52a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM33" TargetConnector="SL1" />
+    <Parameter ID="SafeProject" Value="SafeLOGIC-1" />
+    <Parameter ID="SafeDesigner" Value="4.2.2.18" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12a" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12b" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12c" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB52" Type="X20TB52" Version="1.0.0.1" />
+  <Module Name="X20TB52a" Type="X20TB52" Version="1.0.0.1" />
+  <Module Name="X20cBM11" Type="X20cBM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BB80" TargetConnector="IF1" />
+  </Module>
+  <Module Name="X20cBM11a" Type="X20cBM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20cBM11" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20cDI9371" Type="X20cDI9371" Version="1.0.0.1">
+    <Connection Connector="SS1" TargetModule="X20TB12a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20cBM11" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20cDO9321" Type="X20cDO9321" Version="1.0.2.0">
+    <Connection Connector="SS1" TargetModule="X20TB12b" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20cBM11a" TargetConnector="SL1" />
+  </Module>
+</Hardware>

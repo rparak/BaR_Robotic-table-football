@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ndef:Navigation id="MainNavigation" xmlns:ndef="http://www.br-automation.com/iat2015/navigationDefinition/v2">
+  <NavigationPaths>
+		<NavigationPath refId="HomePage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="GamePage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="MatchPage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="CameraPage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="SPage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="GraphPage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="PosPage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="TempPage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="AlarmPage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="SftPage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="AboutPage">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="mbInfo">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="dsInfo">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="wdInfo">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+		</NavigationPath>
+		<NavigationPath refId="MatHist">
+			<Destination refId="HomePage" index="0" />
+			<Destination refId="GamePage" index="1" />    
+			<Destination refId="CameraPage" index="2" />
+			<Destination refId="SPage" index="3" />
+			<Destination refId="GraphPage" index="4" />
+			<Destination refId="PosPage" index="5" />
+			<Destination refId="TempPage" index="6" />
+			<Destination refId="AlarmPage" index="7" />
+			<Destination refId="SftPage" index="8" />
+			<Destination refId="AboutPage" index="9" />
+	    </NavigationPath>
+  </NavigationPaths>
+</ndef:Navigation>

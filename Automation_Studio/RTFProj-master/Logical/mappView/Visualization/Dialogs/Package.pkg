@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<Package PackageType="DialogsPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="AreaContents">AreaContents</Object>
+    <Object Type="Package">DialogStart</Object>
+    <Object Type="Package">DialogLogin</Object>
+    <Object Type="Package">DialogEnd</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="BuRTheme1systemStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+	<Style id="default" xsi:type="system.brease.Page"  />
+	
+	<Style id="default" xsi:type="system.brease.Dialog" headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" fontSize="20px" textColor="#474747" cornerRadius="8px 8px 0px 0px" borderWidth="0px" borderColor="rgba(190, 190, 190, 0.75)" shadow="1px 1px 6px 0px rgba(190, 190, 190, 0.75)" fontName="TSTAR PRO"/>
+	
+	<Style id="default" xsi:type="system.brease.MessageBox"	headerGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%)" fontSize="20px" textColor="#474747" cornerRadius="8px 8px 0px 0px" borderWidth="1px" borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" shadow="5px 5px 20px 0px rgba(62, 79, 92, 0.75)" />
+	
+	<Style id="default" xsi:type="system.brease.Area" backColor="#ffffff" />
+	
+	<Style id="transparent" xsi:type="system.brease.Area" backColor="transparent" />
+	
+	<Style id="myStyle" xsi:type="system.brease.Dialog" 
+		headerGradient="linear-gradient(to bottom, rgba(74,74,74,1) 0%,rgba(124,124,124,1) 20%)" 
+		fontSize="20px"
+		backGround = "rgba(255, 255, 255, 1)"
+		fontName="TSTAR PRO"
+		textColor="rgba(255, 128, 0, 1)" 
+		backColor="rgba(255, 255, 255, 1)"
+		cornerRadius="8px 8px 0px 0px"
+		bold="true" 
+		borderWidth="0px" 
+		borderColor="rgba(190, 190, 190, 0.75)"
+		headerBorderColor="rgba(190, 190, 190, 0.75)"
+		headerBorderStyle="none"
+		headerBackColor="rgba(255, 255, 255, 1)"
+		shadow="1px 1px 6px 0px rgba(190, 190, 190, 0.75)" />	
+</Styles>

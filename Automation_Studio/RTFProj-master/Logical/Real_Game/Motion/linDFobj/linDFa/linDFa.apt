@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.8.54 SP?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Group Name="linMot_PS01_23x80.xml">
+      <Group Name="linMot__PS01_23x80.xml">
+        <Group Name="LinMot: PS01-23x80/150x210" Description="Version: 1.1">
+          <Group Name="Motor" Disabled="FALSE">
+            <Parameter Name="MOTOR_TYPE" ID="30" Value="0x0002" Disabled="FALSE" Description="Motor: Type" />
+            <Parameter Name="MOTOR_COMPATIBILITY" ID="31" Value="0x0203" Disabled="FALSE" Description="Motor: Software compatibility" />
+            <Parameter Name="MOTOR_WIND_CONNECT" ID="46" Value="1" Disabled="FALSE" Description="Motor: Winding connection" />
+            <Parameter Name="MOTOR_POLEPAIRS" ID="47" Value="1" Disabled="FALSE" Description="Motor: Number of pole-pairs" />
+            <Parameter Name="MOTOR_NUM_PHASES" ID="1208" Value="2" Description="Motor: Number of motor phases" />
+            <Parameter Name="MOTOR_VOLTAGE_RATED" ID="48" Value="72" Unit="V" Disabled="FALSE" Description="Motor: Rated voltage" />
+            <Parameter Name="MOTOR_VOLTAGE_CONST" ID="49" Value="5.209" Unit="mV*min" Disabled="FALSE" Description="Motor: Voltage constant" />
+            <Parameter Name="MOTOR_SPEED_MAX" ID="51" Value="18000" Unit="1/min" Disabled="FALSE" Description="Motor: Maximum speed" />
+            <Parameter Name="MOTOR_TORQ_MAX" ID="54" Value="0.14" Unit="Nm" Disabled="FALSE" Description="Motor: Peak torque" />
+            <Parameter Name="MOTOR_TORQ_CONST" ID="55" Value="0.035" Unit="Nm/A" Disabled="FALSE" Description="Motor: Torque constant" />
+            <Parameter Name="MOTOR_CURR_MAX" ID="58" Value="4" Unit="A" Disabled="FALSE" Description="Motor: Peak current" />
+            <Parameter Name="MOTOR_STATOR_RESISTANCE" ID="60" Value="12.5" Unit="Ohm" Disabled="FALSE" Description="Motor: Stator resistance" />
+            <Parameter Name="MOTOR_STATOR_INDUCTANCE" ID="61" Value="0.0014" Unit="Henry" Disabled="FALSE" Description="Motor: Stator inductance" />
+            <Parameter Name="MOTOR_INERTIA" ID="62" Value="0.0000027" Unit="kgmp" Disabled="FALSE" Description="Motor: Moment of inertia" />
+            <Parameter Name="MOTOR_COMMUT_OFFSET" ID="63" Value="1.5707963" Unit="rad" Disabled="FALSE" Description="Motor: Commutation offset" />
+            <Parameter Name="PHASING_MODE" ID="276" Value="4" Disabled="FALSE" Description="Motor: Phasing: Mode" />
+          </Group>
+          <Parameter Name="MOTOR_SPEED_RATED" ID="50" Value="18000" Unit="1/min" Disabled="FALSE" Description="Motor: Rated speed" />
+          <Group Name="Temperature model" Disabled="FALSE">
+            <Parameter Name="MOTOR_CURR_STALL" ID="56" Value="0.82" Unit="A" Disabled="FALSE" Description="Motor: Stall current" />
+            <Parameter Name="MOTOR_CURR_RATED" ID="57" Value="0.82" Unit="A" Disabled="FALSE" Description="Motor: Rated current" />
+            <Parameter Name="MOTOR_TORQ_STALL" ID="52" Value="0.03" Unit="Nm" Disabled="FALSE" Description="Motor: Stall torque" />
+            <Parameter Name="MOTOR_TORQ_RATED" ID="53" Value="0.03" Unit="Nm" Disabled="FALSE" Description="Motor: Rated torque" />
+            <Parameter Name="MOTOR_WIND_CROSS_SECT" ID="59" Value="0.11" Unit="mmp" Disabled="FALSE" Description="Motor: Line cross section" />
+            <Parameter Name="MOTOR_TAU_THERM" ID="849" Value="135.72" Unit="s" Disabled="FALSE" Description="Motor: Thermal time constant" />
+            <Parameter Name="MOTOR_WIND_TEMP_MAX" ID="74" Value="110" Unit="°C" Disabled="FALSE" Description="Motor: Limit temperature" />
+            <Parameter Name="MOTOR_TEMPMODEL_REFSENS" ID="1210" Value="2" Disabled="FALSE" Description="Motor: Temperature model: Reference sensor: Parameter-ID" />
+            <Parameter Name="MOTOR_TEMPMODEL_RES1" ID="1211" Value="0.2775" Unit="K/W" Disabled="FALSE" Description="Motor: Temperature model: Thermal resistance 1" />
+            <Parameter Name="MOTOR_TEMPMODEL_CAP1" ID="1212" Value="17.226" Unit="Ws/K" Disabled="FALSE" Description="Motor: Temperature model: Thermal capacity 1" />
+            <Parameter Name="MOTOR_TEMPMODEL_RES2" ID="1213" Value="0.4163" Unit="K/W" Disabled="FALSE" Description="Motor: Temperature model: Thermal resistance 2" />
+            <Parameter Name="MOTOR_TEMPMODEL_CAP2" ID="1214" Value="0.348" Unit="Ws/K" Disabled="FALSE" Description="Motor: Temperature model: Thermal capacity 2" />
+            <Parameter Name="TEMP_MOTOR_MODEL_MODE" ID="373" Value="4" Disabled="FALSE" Description="Motor: Temperature model: Mode" />
+          </Group>
+          <Group Name="Brake" Disabled="FALSE">
+            <Parameter Name="MOTOR_BRAKE_CURR_RATED" ID="42" Value="0" Unit="A" Disabled="FALSE" Description="Motor holding brake: Rated current" />
+            <Parameter Name="MOTOR_BRAKE_TORQ_RATED" ID="43" Value="0" Unit="Nm" Disabled="FALSE" Description="Motor holding brake: Rated torque" />
+            <Parameter Name="MOTOR_BRAKE_ON_TIME" ID="44" Value="0" Unit="s" Disabled="FALSE" Description="Motor holding brake: Engaging delay" />
+            <Parameter Name="MOTOR_BRAKE_OFF_TIME" ID="45" Value="0" Unit="s" Disabled="FALSE" Description="Motor holding brake: Release delay" />
+          </Group>
+          <Group Name="Temperature sensor" Disabled="FALSE">
+            <Parameter Name="MOTOR_TEMPSENS_PAR1" ID="64" Value="0" Disabled="FALSE" Description="Temperature sensor: Parameter 1" />
+            <Parameter Name="MOTOR_TEMPSENS_PAR2" ID="65" Value="0" Disabled="FALSE" Description="Temperature sensor: Parameter 2" />
+            <Parameter Name="MOTOR_TEMPSENS_PAR3" ID="66" Value="0" Disabled="FALSE" Description="Temperature sensor: Parameter 3" />
+            <Parameter Name="MOTOR_TEMPSENS_PAR4" ID="67" Value="0" Disabled="FALSE" Description="Temperature sensor: Parameter 4" />
+            <Parameter Name="MOTOR_TEMPSENS_PAR5" ID="68" Value="0" Disabled="FALSE" Description="Temperature sensor: Parameter 5" />
+            <Parameter Name="MOTOR_TEMPSENS_PAR6" ID="69" Value="0" Disabled="FALSE" Description="Temperature sensor: Parameter 6" />
+            <Parameter Name="MOTOR_TEMPSENS_PAR7" ID="70" Value="0" Disabled="FALSE" Description="Temperature sensor: Parameter 7" />
+            <Parameter Name="MOTOR_TEMPSENS_PAR8" ID="71" Value="0" Disabled="FALSE" Description="Temperature sensor: Parameter 8" />
+            <Parameter Name="MOTOR_TEMPSENS_PAR9" ID="72" Value="0" Disabled="FALSE" Description="Temperature sensor: Parameter 9" />
+            <Parameter Name="MOTOR_TEMPSENS_PAR10" ID="73" Value="0" Disabled="FALSE" Description="Temperature sensor: Parameter 10" />
+          </Group>
+          <Group Name="Encoder">
+            <Parameter Name="MOTOR_ENCOD_ATTR" ID="652" Value="0" Disabled="FALSE" Description="Motor: Encoder: Attribute" />
+            <Parameter Name="MOTOR_ENCOD_TEMP_LIM" ID="1209" Value="110" Unit="°C" Disabled="FALSE" Description="Motor: Encoder: Limit Temperature" />
+            <Parameter Name="ENCOD_TYPE" ID="97" Value="ncLINMOT" Description="Encoder1: Type" />
+            <Parameter Name="SCALE_ENCOD_INCR" ID="109" Value="16384" Description="Encoder1: Encoder scaling: increments per SCALE_ENCOD_MOTOR_REV motor revolutions" />
+          </Group>
+        </Group>
+      </Group>
+    </Group>
+  </Root>
+</AcoposParameterTable>

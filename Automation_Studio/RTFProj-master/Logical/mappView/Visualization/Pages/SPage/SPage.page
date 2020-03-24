@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pdef:Page id="SPage" layoutRefId="MyLayout" 
+	displayName="$navSDM"
+	image="Media/Images/BtnImages/SDM.png"
+	xmlns:pdef="http://www.br-automation.com/iat2015/pageDefinition/v2">
+  <Assignments>
+		<Assignment type="Content" baseContentRefId="ContentSPage" areaRefId="AreaContent"
+		styleRefId="transparent" />
+		<Assignment type="Content" baseContentRefId="ContentInfo" areaRefId="AreaInfo"
+		styleRefId="transparent" />
+		<Assignment type="Content" baseContentRefId="ContentNavigation" areaRefId="AreaNavigation"
+		styleRefId="transparent" />
+  </Assignments>
+</pdef:Page>
