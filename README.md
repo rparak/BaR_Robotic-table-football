@@ -27,6 +27,13 @@ Grade proposed by supervisor: A
 
 Grade proposed by reviewer: A
 
+```bash
+AS Library: Robotic-table-football/Automation_Studio/RTFProj-master/Logical/Libraries/rp_library/rp_funcx1
+AS Test Simulation: Robotic-table-football/Automation_Studio/RTFProj-master/Logical/Simulation/
+AS Test Real-HW: Robotic-table-football/Automation_Studio/RTFProj-master/Logical/Real_Game/
+AS MappView: Robotic-table-football/Automation_Studio/RTFProj-master/Logical/mappView/
+AS Safety: Robotic-table-football/Automation_Studio/RTFProj-master/Physical/RTFProjRG/5PPC2100_BY44_000/SafeLOGIC-1.swt
+```
 ## Game Axis Structure:
 
 ![](https://github.com/rparak/Robotic-table-football/blob/master/images/axis_structure_fig.png)
