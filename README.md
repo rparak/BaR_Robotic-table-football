@@ -28,7 +28,7 @@ Grade proposed by supervisor: A
 Grade proposed by reviewer: A
 
 ```bash
-**AS Library:** Robotic-table-football/Automation_Studio/RTFProj-master/Logical/Libraries/rp_library/rp_funcx1
+- AS Library: Robotic-table-football/Automation_Studio/RTFProj-master/Logical/Libraries/rp_library/rp_funcx1
 AS Test Simulation: Robotic-table-football/Automation_Studio/RTFProj-master/Logical/Simulation/
 AS Test Real-HW: Robotic-table-football/Automation_Studio/RTFProj-master/Logical/Real_Game/
 AS MappView: Robotic-table-football/Automation_Studio/RTFProj-master/Logical/mappView/
