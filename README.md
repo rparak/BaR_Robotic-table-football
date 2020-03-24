@@ -16,3 +16,13 @@ Link MATLAB: https://www.mathworks.com/products/matlab.html
 ## Abstract:
 
 The aim of the master's thesis is the robotic table football device modification and the design of game strategies. The thesis was extended by the design of technology for the robotic table football safety and the design of the Human Machine Interface (HMI). In the introduction so far developed solutions and presentation of the B&R Automation company are described. The following chapters describe mechanical solution modification, electrical wiring diagram design, creating simulation in the MATLAB development environment, resolving security issues and the subsequent application of a solution into the robotic table football. The conclusion of the thesis is devoted to the visualization interface design.
+
+**Description:**
+Link: https://www.vutbr.cz/en/students/final-thesis?zp_id=101047
+
+**Grade:**
+A - Excellent
+
+Grade proposed by supervisor: A
+
+Grade proposed by reviewer: A
