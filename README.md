@@ -26,3 +26,6 @@ A - Excellent
 Grade proposed by supervisor: A
 
 Grade proposed by reviewer: A
+
+**Game Axis Structure:**
+![Image of rparak](https://rparak.github.com/images/axis_structure_fig.png)
