@@ -30,3 +30,35 @@ Grade proposed by reviewer: A
 ## Game Axis Structure:
 
 ![](https://github.com/rparak/Robotic-table-football/blob/master/images/axis_structure_fig.png)
+
+## Matlab Simulation (GUI):
+
+![](https://github.com/rparak/Robotic-table-football/blob/master/images/matlab_sim_fig.png)
+
+## Safety (openSAFETY B&R):
+
+![](https://github.com/rparak/Robotic-table-football/blob/master/images/safety_fig.png)
+
+## B&R Automation Studio - MappView (HMI - Human-Machine Interface):
+
+![](https://github.com/rparak/Robotic-table-football/blob/master/images/mv_1_fig.png)
+
+![](https://github.com/rparak/Robotic-table-football/blob/master/images/mv_2_fig.png)
+
+# Result
+
+## Youtube:
+
+**Test Single Axis:**
+
+Link: https://www.youtube.com/watch?v=l96whVzKXzE&t=1s
+
+**Test ALL:**
+
+Link: https://www.youtube.com/watch?v=Zk1ji7Le2Ao&t=9s
+
+## Contact Info:
+Roman.Parak@outlook.com
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
