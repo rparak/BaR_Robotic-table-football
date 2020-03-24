@@ -4,10 +4,11 @@
 
 **Software:**
 ```bash
-Automation Studio B&R, MATLAB
+Automation Studio BR Automation, MATLAB
 ```
 
-Link AS B&R Automation: https://www.br-automation.com/en/downloads/ 
+Link AS B&R: https://www.br-automation.com/en/downloads/ 
+
 Link MATLAB: https://www.mathworks.com/products/matlab.html
 
 # Title of the Master's thesis: Robotic table football - game strategies
