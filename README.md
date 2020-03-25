@@ -44,9 +44,7 @@ Grade proposed by reviewer: A
 
 ## Matlab Simulation (GUI):
 
-<p align="center">
-<img src="https://github.com/rparak/Robotic-table-football/blob/master/images/matlab_sim_fig.png" width="1280" height="960">
-</p>
+![](https://github.com/rparak/Robotic-table-football/blob/master/images/matlab_sim_fig.png)
 
 ## Safety (openSAFETY B&R):
 
