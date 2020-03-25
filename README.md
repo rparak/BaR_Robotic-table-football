@@ -45,13 +45,13 @@ Grade proposed by reviewer: A
 ## Matlab Simulation (GUI):
 
 <p align="center">
-<img src="https://github.com/rparak/Robotic-table-football/blob/master/images/matlab_sim_fig.png" width="700" height="350">
+<img src="https://github.com/rparak/Robotic-table-football/blob/master/images/matlab_sim_fig.png" width="700" height="400">
 </p>
 
 ## Safety (openSAFETY B&R):
 
-<p align="center">
-<img src="https://github.com/rparak/Robotic-table-football/blob/master/images/safety_fig.png" width="700" height="350">
+<p align="right">
+<img src="https://github.com/rparak/Robotic-table-football/blob/master/images/safety_fig.png" width="700" height="400">
 </p>
 
 ## B&R Automation Studio - MappView (HMI - Human-Machine Interface):
