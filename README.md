@@ -50,11 +50,11 @@ Grade proposed by reviewer: A
 
 ## B&R Automation Studio - MappView (HMI - Human-Machine Interface):
 
-<p align="center">
+<p align="right">
 <img src="https://github.com/rparak/Robotic-table-football/blob/master/images/mv_1_fig.png" width="700" height="350">
 </p>
 
-<p align="center">
+<p align="right">
 <img src="https://github.com/rparak/Robotic-table-football/blob/master/images/mv_2_fig.png" width="700" height="350">
 </p>
 
