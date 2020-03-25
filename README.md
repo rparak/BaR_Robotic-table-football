@@ -39,7 +39,7 @@ Grade proposed by reviewer: A
 ## Game Axis Structure:
 
 <p align="right">
-<img src="https://github.com/rparak/Robotic-table-football/blob/master/images/axis_structure_fig.png)" width="700" height="350">
+<img src="https://github.com/rparak/Robotic-table-football/blob/master/images/axis_structure_fig.png" width="700" height="350">
 </p>
 
 ## Matlab Simulation (GUI):
