@@ -38,19 +38,19 @@ Grade proposed by reviewer: A
 ```
 ## Game Axis Structure:
 
-<p align="right">
+<p align="center">
 <img src="https://github.com/rparak/Robotic-table-football/blob/master/images/axis_structure_fig.png" width="700" height="350">
 </p>
 
 ## Matlab Simulation (GUI):
 
-<p align="right">
+<p align="center">
 <img src="https://github.com/rparak/Robotic-table-football/blob/master/images/matlab_sim_fig.png" width="700" height="350">
 </p>
 
 ## Safety (openSAFETY B&R):
 
-<p align="right">
+<p align="center">
 <img src="https://github.com/rparak/Robotic-table-football/blob/master/images/safety_fig.png" width="700" height="350">
 </p>
 
