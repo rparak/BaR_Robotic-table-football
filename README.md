@@ -48,17 +48,17 @@ Grade proposed by reviewer: A
 
 ## Safety (openSAFETY B&R):
 
-<p align="right">
+<p align="center">
 <img src="https://github.com/rparak/Robotic-table-football/blob/master/images/safety_fig.png" width="700" height="350">
 </p>
 
 ## B&R Automation Studio - MappView (HMI - Human-Machine Interface):
 
-<p align="right">
+<p align="center">
 <img src="https://github.com/rparak/Robotic-table-football/blob/master/images/mv_1_fig.png" width="700" height="350">
 </p>
 
-<p align="right">
+<p align="center">
 <img src="https://github.com/rparak/Robotic-table-football/blob/master/images/mv_2_fig.png" width="700" height="350">
 </p>
 
