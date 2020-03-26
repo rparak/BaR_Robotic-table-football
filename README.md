@@ -68,11 +68,11 @@ Grade proposed by reviewer: A
 
 **Test Single Axis:**
 
-Link: https://www.youtube.com/watch?v=l96whVzKXzE&t=1s
+Youtube: https://www.youtube.com/watch?v=l96whVzKXzE&t=1s
 
 **Test ALL:**
 
-Link: https://www.youtube.com/watch?v=Zk1ji7Le2Ao&t=9s
+Youtube: https://www.youtube.com/watch?v=Zk1ji7Le2Ao&t=9s
 
 ## Contact Info:
 Roman.Parak@outlook.com
